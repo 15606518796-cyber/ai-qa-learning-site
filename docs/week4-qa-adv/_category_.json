@@ -1,8 +1,0 @@
-{
-  "label": "第四周：AI 质量保障进阶体系 (AI QA & Red Teaming)",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "掌握前沿的 AI 评测方法，建立安全与红蓝对抗意识，最终搭建企业级 Agent 测试流水线。"
-  }
-}

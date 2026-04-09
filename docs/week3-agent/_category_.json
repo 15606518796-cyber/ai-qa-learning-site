@@ -1,8 +1,0 @@
-{
-  "label": "第三周：AI Agent 架构与 MCP / Skill 生态",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "深入理解 Agent 的核心组件，玩转工具调用与协议，能对复杂的 Agent 工作流进行测试设计。"
-  }
-}
