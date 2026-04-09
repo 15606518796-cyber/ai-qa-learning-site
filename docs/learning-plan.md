@@ -1,20 +1,6 @@
 面向测试开发的 AI 与 Agent 系统学习计划（4周进阶指南）
 这份学习计划专为资深测试开发工程师（QA / Test Dev）定制。我们不仅关注 AI 的底层理论，更将其与日常的质量保障（QA）、自动化测试框架（Golang/Python/K8s）紧密结合，确保你学完后能直接具备评测和保障 AI 产品质量的核心能力。
 
-:::tip 对话示例：如何使用本计划
-
-<div className="chat-container">
-<div className="chat-bubble chat-user">
-<span className="chat-label">User</span>
-我是一名纯手工测试，这份计划适合我吗？
-</div>
-<div className="chat-bubble chat-ai">
-<span className="chat-label">Assistant</span>
-本计划侧重于<b>代码实现</b>与<b>自动化评测</b>。如果你有一定的 Python 或 Go 基础，这将是你转型 AI 测开的最佳路径；如果目前仅限手工测试，建议先同步补充基础编程知识。
-</div>
-</div>
-
-:::
 
 第一周（Week 1）：LLM 基础与提示词工程（Prompt Engineering）
 目标：理解大模型的工作原理，掌握 Prompt 的高阶用法，并能够对其进行自动化测试。
