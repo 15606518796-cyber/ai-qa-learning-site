@@ -1,0 +1,8 @@
+{
+  "label": "第二周：检索增强生成 (RAG) 与数据基建",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "拆解 RAG 的黑盒，掌握向量数据库基础，并学会如何评测 RAG 的检索质量。"
+  }
+}

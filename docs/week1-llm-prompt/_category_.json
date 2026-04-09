@@ -1,0 +1,8 @@
+{
+  "label": "第一周：LLM 基础与提示词工程",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "理解大模型的工作原理，掌握 Prompt 的高阶用法，并能够对其进行自动化测试。"
+  }
+}
