@@ -1,7 +1,7 @@
 ---
 title: GitHub Trending AI 项目深度研究：赋能 QA 的工程化机遇
 authors: [eileen]
-tags: [AI, QA, "GitHub Trending", Automation]
+tags: [github-trending, AI, QA, Automation]
 date: 2026-04-10
 ---
 

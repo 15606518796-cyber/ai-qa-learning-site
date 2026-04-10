@@ -1,7 +1,7 @@
 ---
 title: "每日 AI 学习笔记 Day 1：LLM 的前世今生"
 authors: [eileen]
-tags: [AI, QA, Learning Notes, LLM]
+tags: [learning-notes, AI, QA, LLM]
 date: 2026-04-10
 ---
 

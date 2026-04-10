@@ -95,7 +95,20 @@ const config = {
             position: 'left',
             label: '学习计划',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            label: 'Blog',
+            position: 'left',
+            items: [
+              {
+                label: 'GitHub Trending AI 测开趋势',
+                to: '/blog/tags/github-trending',
+              },
+              {
+                label: 'AI 学习笔记',
+                to: '/blog/tags/learning-notes',
+              },
+            ],
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

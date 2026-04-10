@@ -1,39 +1,19 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
-
 AI:
   label: AI
-  permalink: /ai
   description: AI / 大模型与智能体相关实践
 
 QA:
   label: QA
-  permalink: /qa
   description: 质量保障与测试工程化
-
-"GitHub Trending":
-  label: GitHub Trending
-  permalink: /github-trending
-  description: GitHub Trending 项目研究与复盘
 
 Automation:
   label: Automation
-  permalink: /automation
   description: 自动化测试与持续交付
+
+github-trending:
+  label: GitHub Trending AI 测开趋势
+  description: 每日 GitHub Trending AI 项目，从测开视角做工程化拆解与落地建议
+
+learning-notes:
+  label: AI 学习笔记
+  description: 个人 AI 学习过程中的笔记与实践记录
