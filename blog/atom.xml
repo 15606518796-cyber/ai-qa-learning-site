@@ -128,154 +128,112 @@
         <category label="LLM" term="LLM"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GitHub Trending AI 项目深度研究：赋能 QA 的工程化机遇]]></title>
+        <title type="html"><![CDATA[GitHub Trending AI 项目深度研究：赋能 QA 的工程化机遇与行动指南]]></title>
         <id>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa</id>
         <link href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa"/>
         <updated>2026-04-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天早上的 GitHub Trending AI 项目研究，有一个特别强烈的感受：AI 不再只是“模型能力”竞赛，而是在“工程化能力”上全面开卷。对测开来说，这意味着两个方向同时变得更清晰：]]></summary>
-        <content type="html"><![CDATA[<p>今天早上的 GitHub Trending AI 项目研究，有一个特别强烈的感受：<strong>AI 不再只是“模型能力”竞赛，而是在“工程化能力”上全面开卷</strong>。对测开来说，这意味着两个方向同时变得更清晰：</p>
+        <summary type="html"><![CDATA[随着大型语言模型（LLM）与 Agent 技术从“概念验证”走向“工程化落地”，对测试开发来说，一个很现实的变化是：质量保障的焦点正在从“测模型”转为“测系统”——测工具调用、测工作流、测可观测、测回放与评测。]]></summary>
+        <content type="html"><![CDATA[<p>随着大型语言模型（LLM）与 Agent 技术从“概念验证”走向“工程化落地”，对测试开发来说，一个很现实的变化是：<strong>质量保障的焦点正在从“测模型”转为“测系统”</strong>——测工具调用、测工作流、测可观测、测回放与评测。</p>
+<p>本文聚焦于 <strong>2026-04-10</strong> 的 GitHub Trending（daily），筛选出 8 个在 <strong>AI Agent / 工作流编排 / RAG 数据管道 / 推理与多模态</strong> 等领域较具代表性的项目，并从“测开视角”给出：</p>
 <ul>
-<li class="">一方面，AI Agent/基础设施的形态正在快速收敛，可测试的边界更明确。</li>
-<li class="">另一方面，这些项目沉淀出来的工程化设计（可观测、可回放、可评测、可治理）会反过来“降维”提升 QA 的效率与确定性。</li>
+<li class="">我们到底应该关注什么工程化能力</li>
+<li class="">这些能力如何转化为可自动化的测试资产</li>
+<li class="">下周就能落地的行动清单</li>
 </ul>
-<p>本文按测开视角，把研究要点整理成 3 个模块，并给出基于 <code>Ginkgo</code> / <code>Playwright</code> 的落地建议。</p>
-<blockquote>
-<p>说明：本文聚焦“可复用的方法论与工程化抓手”，不强行罗列具体项目清单；你可以把它当成每日 Trending 研究的固定写作模板。</p>
-</blockquote>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-agent-与基础设施的新趋势">AI Agent 与基础设施的新趋势<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#ai-agent-%E4%B8%8E%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E7%9A%84%E6%96%B0%E8%B6%8B%E5%8A%BF" class="hash-link" aria-label="AI Agent 与基础设施的新趋势的直接链接" title="AI Agent 与基础设施的新趋势的直接链接" translate="no">​</a></h2>
-<p>从近期 Trending 的形态看，AI 相关项目大体在向几条主线聚合，且每一条都天然对应 QA 的可测点：</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-agent-从聊天走向执行">1) Agent 从“聊天”走向“执行”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#1-agent-%E4%BB%8E%E8%81%8A%E5%A4%A9%E8%B5%B0%E5%90%91%E6%89%A7%E8%A1%8C" class="hash-link" aria-label="1) Agent 从“聊天”走向“执行”的直接链接" title="1) Agent 从“聊天”走向“执行”的直接链接" translate="no">​</a></h3>
-<p>典型结构不再是单轮问答，而是更像一个可编排的执行系统：</p>
-<ul>
-<li class=""><strong>规划（Planner）/执行（Executor）分离</strong>：把“想做什么”和“怎么做”拆开，便于插入规则、限权、审计。</li>
-<li class=""><strong>工具调用（Tool/Function Calling）规范化</strong>：输出结构化 JSON、可验证 schema、可重试的错误码。</li>
-<li class=""><strong>多 Agent 协作</strong>：角色分工（检索/分析/执行/审计），但更依赖“上下文管理”和“冲突仲裁”。</li>
-</ul>
-<p>测开关注点：</p>
-<ul>
-<li class="">工具调用是否满足 <code>JSON Schema</code>（结构、必填、枚举、约束）。</li>
-<li class="">规划是否可复现（同输入是否有稳定的步骤集合、是否可控随机性）。</li>
-<li class="">Agent 之间的消息边界是否可观测（是否能定位谁造成了错误决策）。</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-基础设施从能跑走向可治理">2) 基础设施从“能跑”走向“可治理”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#2-%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E4%BB%8E%E8%83%BD%E8%B7%91%E8%B5%B0%E5%90%91%E5%8F%AF%E6%B2%BB%E7%90%86" class="hash-link" aria-label="2) 基础设施从“能跑”走向“可治理”的直接链接" title="2) 基础设施从“能跑”走向“可治理”的直接链接" translate="no">​</a></h3>
-<p>基础设施项目的热点不只是向量检索/RAG，而是更完整的“可运营套件”：</p>
-<ul>
-<li class=""><strong>评测/回归（Eval / Regression Harness）</strong>：把模型升级、Prompt 改动、知识库变更纳入回归体系。</li>
-<li class=""><strong>可观测（Logs/Metrics/Traces）</strong>：对一次 Agent 执行给出 end-to-end 的链路追踪。</li>
-<li class=""><strong>安全与防护（Guardrails）</strong>：输入输出审查、提示注入防护、敏感信息脱敏、权限控制。</li>
-<li class=""><strong>成本与性能（Latency/Token/Cache）</strong>：缓存、并发、限流、降级策略逐步标配。</li>
-</ul>
-<p>测开关注点：</p>
-<ul>
-<li class="">评测集是否具备“可解释失败”的结果（失败案例能否直达根因：检索错、工具错、推理错、数据错）。</li>
-<li class="">链路是否覆盖关键 span（检索、rerank、调用外部 API、生成、解析、写入）。</li>
-<li class="">降级/熔断/重试是否可验证（以及是否会放大不稳定性）。</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-数据与知识从堆料走向版本化资产">3) 数据与知识从“堆料”走向“版本化资产”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#3-%E6%95%B0%E6%8D%AE%E4%B8%8E%E7%9F%A5%E8%AF%86%E4%BB%8E%E5%A0%86%E6%96%99%E8%B5%B0%E5%90%91%E7%89%88%E6%9C%AC%E5%8C%96%E8%B5%84%E4%BA%A7" class="hash-link" aria-label="3) 数据与知识从“堆料”走向“版本化资产”的直接链接" title="3) 数据与知识从“堆料”走向“版本化资产”的直接链接" translate="no">​</a></h3>
-<p>越来越多项目在强调：Prompt、工具定义、知识库、评测集都应该像代码一样被版本化。</p>
-<p>测开关注点：</p>
-<ul>
-<li class="">Prompt/知识库变更是否触发回归（像 <code>go test</code>/<code>playwright test</code> 一样自动化）。</li>
-<li class="">线上事故是否能“回放同一上下文”（确定性复现是质量治理的核心杠杆）。</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="质量保障的降维打击">质量保障的降维打击<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#%E8%B4%A8%E9%87%8F%E4%BF%9D%E9%9A%9C%E7%9A%84%E9%99%8D%E7%BB%B4%E6%89%93%E5%87%BB" class="hash-link" aria-label="质量保障的降维打击的直接链接" title="质量保障的降维打击的直接链接" translate="no">​</a></h2>
-<p>“降维打击”不是让 QA 被替代，而是：<strong>工程化设计把不确定的 AI 行为变成可测、可控、可回归的对象</strong>。</p>
-<p>下面是几条对 QA 直接增益的工程化抓手，你可以把它们当成 AI 项目质量体系的“骨架”。</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-把不可测的自由文本约束成可验证的接口">1) 把不可测的自由文本，约束成可验证的接口<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#1-%E6%8A%8A%E4%B8%8D%E5%8F%AF%E6%B5%8B%E7%9A%84%E8%87%AA%E7%94%B1%E6%96%87%E6%9C%AC%E7%BA%A6%E6%9D%9F%E6%88%90%E5%8F%AF%E9%AA%8C%E8%AF%81%E7%9A%84%E6%8E%A5%E5%8F%A3" class="hash-link" aria-label="1) 把不可测的自由文本，约束成可验证的接口的直接链接" title="1) 把不可测的自由文本，约束成可验证的接口的直接链接" translate="no">​</a></h3>
-<ul>
-<li class="">统一对外输出为结构化对象（JSON），对齐 <code>schema + 示例 + 反例</code>。</li>
-<li class="">解析失败要有明确错误码与可重试语义（别把失败吞进“模型又抽风了”）。</li>
-</ul>
-<p>落到测试上：</p>
-<ul>
-<li class="">增加 <strong>schema 合规性测试</strong>（单测级别、快、稳定）。</li>
-<li class="">增加 <strong>关键字段语义约束</strong>（枚举/范围/一致性，比如 <code>severity</code>、<code>confidence</code>、<code>action</code>）。</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-把一次-agent-执行拆成可断言的阶段">2) 把一次 Agent 执行，拆成“可断言的阶段”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#2-%E6%8A%8A%E4%B8%80%E6%AC%A1-agent-%E6%89%A7%E8%A1%8C%E6%8B%86%E6%88%90%E5%8F%AF%E6%96%AD%E8%A8%80%E7%9A%84%E9%98%B6%E6%AE%B5" class="hash-link" aria-label="2) 把一次 Agent 执行，拆成“可断言的阶段”的直接链接" title="2) 把一次 Agent 执行，拆成“可断言的阶段”的直接链接" translate="no">​</a></h3>
-<p>典型可断言阶段：</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="今日-trending-ai-项目速览8-个">今日 Trending AI 项目速览（8 个）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#%E4%BB%8A%E6%97%A5-trending-ai-%E9%A1%B9%E7%9B%AE%E9%80%9F%E8%A7%888-%E4%B8%AA" class="hash-link" aria-label="今日 Trending AI 项目速览（8 个）的直接链接" title="今日 Trending AI 项目速览（8 个）的直接链接" translate="no">​</a></h2>
+<blockquote>
+<p>说明：下表用于“快速建立测试视角”；并不追求穷尽所有项目细节，重点是把项目形态映射到可测点。</p>
+</blockquote>
+<table><thead><tr><th style="text-align:right">#</th><th>项目</th><th>主要语言</th><th>方向（粗分类）</th><th style="text-align:right">Stars</th><th>链接</th><th>测开关注点（一句话）</th></tr></thead><tbody><tr><td style="text-align:right">1</td><td>NousResearch/hermes-agent</td><td>Python</td><td>AI Agent / 编排框架</td><td style="text-align:right">46302</td><td><a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer" class="">https://github.com/NousResearch/hermes-agent</a></td><td>重点测“自我学习/记忆持久化”是否可回放、可审计、可控（防越权/防污染）。</td></tr><tr><td style="text-align:right">2</td><td>forrestchang/andrej-karpathy-skills</td><td>（无主语言）</td><td>Prompt/规范资产（可视作知识库类）</td><td style="text-align:right">10775</td><td><a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer" class="">https://github.com/forrestchang/andrej-karpathy-skills</a></td><td>重点测“规范版本化 + 回归评测”能否把编码类 Agent 的输出变稳定。</td></tr><tr><td style="text-align:right">3</td><td>HKUDS/DeepTutor</td><td>Python</td><td>AI Agent / 编排框架</td><td style="text-align:right">15157</td><td><a href="https://github.com/HKUDS/DeepTutor" target="_blank" rel="noopener noreferrer" class="">https://github.com/HKUDS/DeepTutor</a></td><td>重点测多模式/多 Agent 的状态一致性（同一 thread 下上下文切换不丢失、不串线）。</td></tr><tr><td style="text-align:right">4</td><td>OpenBMB/VoxCPM</td><td>Python</td><td>推理 / 部署（语音 TTS/克隆）</td><td style="text-align:right">7853</td><td><a href="https://github.com/OpenBMB/VoxCPM" target="_blank" rel="noopener noreferrer" class="">https://github.com/OpenBMB/VoxCPM</a></td><td>重点测“音频质量回归 + 多语言覆盖 + 输入扰动鲁棒性”（避免模型升级引发音质/语义漂移）。</td></tr><tr><td style="text-align:right">5</td><td>opendataloader-project/opendataloader-pdf</td><td>Java</td><td>RAG 数据管道（PDF 解析/结构化）</td><td style="text-align:right">14027</td><td><a href="https://github.com/opendataloader-project/opendataloader-pdf" target="_blank" rel="noopener noreferrer" class="">https://github.com/opendataloader-project/opendataloader-pdf</a></td><td>重点测“解析确定性 + OCR/表格准确率 + 边界样本（多栏/扫描/公式）回归集”。</td></tr><tr><td style="text-align:right">6</td><td>obra/superpowers</td><td>Shell</td><td>AI Agent / 编排框架（工作流/技能）</td><td style="text-align:right">144135</td><td><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener noreferrer" class="">https://github.com/obra/superpowers</a></td><td>重点测“流程约束是否真的生效”：TDD、计划分解、变更边界是否可验证。</td></tr><tr><td style="text-align:right">7</td><td>TheCraigHewitt/seomachine</td><td>Python</td><td>AI Agent / 编排框架（内容工作流）</td><td style="text-align:right">5292</td><td><a href="https://github.com/TheCraigHewitt/seomachine" target="_blank" rel="noopener noreferrer" class="">https://github.com/TheCraigHewitt/seomachine</a></td><td>重点测“多步骤工作流”的幂等性与失败恢复（重试不会重复发文/重复写库）。</td></tr><tr><td style="text-align:right">8</td><td>coleam00/Archon</td><td>TypeScript</td><td>AI Agent / 编排框架（确定性 Harness）</td><td style="text-align:right">14542</td><td><a href="https://github.com/coleam00/Archon" target="_blank" rel="noopener noreferrer" class="">https://github.com/coleam00/Archon</a></td><td>重点测“可重复性承诺”是否达成：同输入同依赖下输出 diff 可控、可解释。</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-架构与趋势">AI 架构与趋势<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#ai-%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%B6%8B%E5%8A%BF" class="hash-link" aria-label="AI 架构与趋势的直接链接" title="AI 架构与趋势的直接链接" translate="no">​</a></h2>
+<p>从今天的项目形态看，热点不再只是“某个模型更强”，而是围绕“把 AI 做成一个可运行、可运营、可治理的系统”的工程化套件在加速收敛：</p>
 <ol>
-<li class="">输入归一化（脱敏、补全、校验）</li>
-<li class="">检索（召回/重排）</li>
-<li class="">规划（步骤、工具选择）</li>
-<li class="">执行（工具调用、外部依赖）</li>
-<li class="">汇总输出（结构化、引用来源、置信度）</li>
+<li class=""><strong>Agent 从“聊天”走向“执行”</strong></li>
 </ol>
-<p>落到测试上：</p>
 <ul>
-<li class="">失败要能落到阶段：检索错/规划错/执行错/汇总错。</li>
-<li class="">每个阶段给出最小可观测指标：命中率、延迟、token、重试次数、错误分布。</li>
+<li class="">规划/执行拆分、工具调用规范化（JSON schema / error code / retries）</li>
+<li class="">长链路工作流与状态机（可回滚、可恢复）</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-把模型prompt知识的变化纳入回归与发布治理">3) 把“模型/Prompt/知识”的变化，纳入回归与发布治理<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#3-%E6%8A%8A%E6%A8%A1%E5%9E%8Bprompt%E7%9F%A5%E8%AF%86%E7%9A%84%E5%8F%98%E5%8C%96%E7%BA%B3%E5%85%A5%E5%9B%9E%E5%BD%92%E4%B8%8E%E5%8F%91%E5%B8%83%E6%B2%BB%E7%90%86" class="hash-link" aria-label="3) 把“模型/Prompt/知识”的变化，纳入回归与发布治理的直接链接" title="3) 把“模型/Prompt/知识”的变化，纳入回归与发布治理的直接链接" translate="no">​</a></h3>
+<ol start="2">
+<li class=""><strong>可观测与可回放成为标配诉求</strong></li>
+</ol>
 <ul>
-<li class="">Prompt、工具定义、知识库、评测集：都用版本号/变更记录管理。</li>
-<li class="">发布策略像服务发布：灰度、回滚、金丝雀、对照组。</li>
+<li class="">一次执行要能串起来：输入 → 检索 → 规划 → 工具调用 → 输出</li>
+<li class="">线上问题要能“复现同一上下文”</li>
 </ul>
-<p>落到测试上：</p>
+<ol start="3">
+<li class=""><strong>资产版本化：Prompt / 工具定义 / 评测集 / 知识库像代码一样管理</strong></li>
+</ol>
 <ul>
-<li class="">用一套固定评测集跑出“变更前/后差异”，把主观感受变成数据。</li>
-<li class="">对高风险场景加红线：例如 PII 泄露、越权访问、错误执行不可逆动作。</li>
+<li class="">任何变更（模型/Prompt/知识/工具）都应该触发回归</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-把线上问题变成可复现用例">4) 把“线上问题”变成“可复现用例”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#4-%E6%8A%8A%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98%E5%8F%98%E6%88%90%E5%8F%AF%E5%A4%8D%E7%8E%B0%E7%94%A8%E4%BE%8B" class="hash-link" aria-label="4) 把“线上问题”变成“可复现用例”的直接链接" title="4) 把“线上问题”变成“可复现用例”的直接链接" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="对日常-qa-工作的工程化启发如何测试此类架构">对日常 QA 工作的工程化启发（如何测试此类架构）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#%E5%AF%B9%E6%97%A5%E5%B8%B8-qa-%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%90%AF%E5%8F%91%E5%A6%82%E4%BD%95%E6%B5%8B%E8%AF%95%E6%AD%A4%E7%B1%BB%E6%9E%B6%E6%9E%84" class="hash-link" aria-label="对日常 QA 工作的工程化启发（如何测试此类架构）的直接链接" title="对日常 QA 工作的工程化启发（如何测试此类架构）的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-把-llm-当作不确定外部依赖让测试尽可能确定性">1) 把 LLM 当作“不确定外部依赖”，让测试尽可能确定性<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#1-%E6%8A%8A-llm-%E5%BD%93%E4%BD%9C%E4%B8%8D%E7%A1%AE%E5%AE%9A%E5%A4%96%E9%83%A8%E4%BE%9D%E8%B5%96%E8%AE%A9%E6%B5%8B%E8%AF%95%E5%B0%BD%E5%8F%AF%E8%83%BD%E7%A1%AE%E5%AE%9A%E6%80%A7" class="hash-link" aria-label="1) 把 LLM 当作“不确定外部依赖”，让测试尽可能确定性的直接链接" title="1) 把 LLM 当作“不确定外部依赖”，让测试尽可能确定性的直接链接" translate="no">​</a></h3>
 <ul>
-<li class="">记录执行上下文（输入、检索结果摘要、工具请求/响应、关键中间产物）。</li>
-<li class="">支持 record/replay（至少做到“同一上下文能重跑，输出可比较”）。</li>
+<li class="">测试环境优先：Mock / 录制回放 / 固定评测集</li>
+<li class="">线上优先：可观测性兜底（trace_id、日志、关键中间产物）</li>
 </ul>
-<p>落到测试上：</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-优先结构化输出让断言从主观变成可自动判定">2) 优先结构化输出：让断言从“主观”变成“可自动判定”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#2-%E4%BC%98%E5%85%88%E7%BB%93%E6%9E%84%E5%8C%96%E8%BE%93%E5%87%BA%E8%AE%A9%E6%96%AD%E8%A8%80%E4%BB%8E%E4%B8%BB%E8%A7%82%E5%8F%98%E6%88%90%E5%8F%AF%E8%87%AA%E5%8A%A8%E5%88%A4%E5%AE%9A" class="hash-link" aria-label="2) 优先结构化输出：让断言从“主观”变成“可自动判定”的直接链接" title="2) 优先结构化输出：让断言从“主观”变成“可自动判定”的直接链接" translate="no">​</a></h3>
 <ul>
-<li class="">引入“线上问题回归库”，每次修复/Prompt 调整都必须跑过。</li>
-<li class="">对不稳定用例做隔离与治理（flaky 不是“忍了”，要可定位、可压制、可修复）。</li>
+<li class="">强制 JSON 输出 + JSON Schema 校验</li>
+<li class="">错误必须有 error code（而不是把错误吞进自然语言）</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="可落地行动指南">可落地行动指南<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#%E5%8F%AF%E8%90%BD%E5%9C%B0%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97" class="hash-link" aria-label="可落地行动指南的直接链接" title="可落地行动指南的直接链接" translate="no">​</a></h2>
-<p>下面给一份“下周可执行清单”，按你现有 <code>Ginkgo</code> / <code>Playwright</code> 技术栈设计，目标是在不重构系统的前提下，把 AI Agent 的质量保障快速跑起来。</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-用-ginkgogo把后端-agent工具链测稳">A. 用 Ginkgo（Go）把后端 Agent/工具链测稳<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#a-%E7%94%A8-ginkgogo%E6%8A%8A%E5%90%8E%E7%AB%AF-agent%E5%B7%A5%E5%85%B7%E9%93%BE%E6%B5%8B%E7%A8%B3" class="hash-link" aria-label="A. 用 Ginkgo（Go）把后端 Agent/工具链测稳的直接链接" title="A. 用 Ginkgo（Go）把后端 Agent/工具链测稳的直接链接" translate="no">​</a></h3>
-<p><strong>1) 建一个最小可用的测试分层</strong></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-长链路拆阶段每个阶段都可断言可定位">3) 长链路拆阶段：每个阶段都可断言、可定位<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#3-%E9%95%BF%E9%93%BE%E8%B7%AF%E6%8B%86%E9%98%B6%E6%AE%B5%E6%AF%8F%E4%B8%AA%E9%98%B6%E6%AE%B5%E9%83%BD%E5%8F%AF%E6%96%AD%E8%A8%80%E5%8F%AF%E5%AE%9A%E4%BD%8D" class="hash-link" aria-label="3) 长链路拆阶段：每个阶段都可断言、可定位的直接链接" title="3) 长链路拆阶段：每个阶段都可断言、可定位的直接链接" translate="no">​</a></h3>
+<p>建议拆成：</p>
+<ol>
+<li class="">输入归一化（校验/脱敏/补全）</li>
+<li class="">检索（召回/重排）</li>
+<li class="">规划（步骤/工具选择）</li>
+<li class="">执行（工具调用/外部依赖）</li>
+<li class="">汇总输出（结构化/引用来源/置信度）</li>
+</ol>
+<p>对应的测试资产：</p>
 <ul>
-<li class=""><code>contract</code>：schema/错误码/幂等性（最快、最稳定）</li>
-<li class=""><code>integration</code>：工具调用 + 外部依赖 stub（可控环境）</li>
-<li class=""><code>e2e</code>：端到端执行链路（少量关键路径）</li>
+<li class="">contract tests（schema、错误码、幂等性、权限边界）</li>
+<li class="">integration tests（工具调用 + stub 外部依赖）</li>
+<li class="">replay tests（固定上下文，输出差分可解释）</li>
 </ul>
-<p><strong>2) 关键测试用例建议</strong></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="可落地的行动指南下周就能做">可落地的行动指南（下周就能做）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#%E5%8F%AF%E8%90%BD%E5%9C%B0%E7%9A%84%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97%E4%B8%8B%E5%91%A8%E5%B0%B1%E8%83%BD%E5%81%9A" class="hash-link" aria-label="可落地的行动指南（下周就能做）的直接链接" title="可落地的行动指南（下周就能做）的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">
+<p><strong>沉淀一套“AI 回归用例库”</strong>：</p>
 <ul>
-<li class="">输出结构校验：对每个核心能力定义 JSON schema，失败时输出差异。</li>
-<li class="">工具路由正确性：相同输入在不同“工具可用集”下，选择应符合预期。</li>
-<li class="">重试与超时：对外部 API 注入超时/5xx，验证重试次数、退避策略、最终错误码。</li>
-<li class="">权限边界：RBAC/租户隔离/只读与写入工具的限权（越权必须硬失败）。</li>
+<li class="">输入样本（含边界/恶意/噪声）</li>
+<li class="">期望的结构化输出（schema + 必填字段 + 枚举约束）</li>
+<li class="">依赖上下文（检索命中摘要、工具响应快照、模型/Prompt 版本）</li>
 </ul>
-<p><strong>3) 可操作的工程实现（建议）</strong></p>
+</li>
+<li class="">
+<p><strong>Golang（Ginkgo）侧：先做 contract tests（最快见效）</strong></p>
 <ul>
-<li class="">用 <code>httptest</code>/mock server stub 掉 LLM 与外部依赖，让测试确定性更强。</li>
-<li class="">用 golden file（黄金文件）固化关键输出（建议只固化结构与关键字段，避免全量文本导致噪声）。</li>
+<li class="">schema 合规（解析率、字段完整）</li>
+<li class="">幂等性（同请求重复调用不产生副作用/重复写入）</li>
+<li class="">权限边界（越权必须硬失败）</li>
 </ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="b-用-playwright-把用户路径--agent-交互测透">B. 用 Playwright 把“用户路径 + Agent 交互”测透<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#b-%E7%94%A8-playwright-%E6%8A%8A%E7%94%A8%E6%88%B7%E8%B7%AF%E5%BE%84--agent-%E4%BA%A4%E4%BA%92%E6%B5%8B%E9%80%8F" class="hash-link" aria-label="B. 用 Playwright 把“用户路径 + Agent 交互”测透的直接链接" title="B. 用 Playwright 把“用户路径 + Agent 交互”测透的直接链接" translate="no">​</a></h3>
-<p><strong>1) 优先覆盖三条高 ROI 场景</strong></p>
+</li>
+<li class="">
+<p><strong>Playwright 侧：覆盖 2 条高 ROI 关键路径回放</strong></p>
 <ul>
-<li class="">Agent 在 UI 中的关键任务流（例如：输入 → 规划展示 → 执行 → 结果落库/导出）。</li>
-<li class="">失败兜底体验（超时、无权限、外部依赖失败时的提示与恢复动作）。</li>
-<li class="">可观测证据（trace/log link）是否在 UI 中可追溯。</li>
+<li class="">正常链路：输入 → 执行 → 结果可追溯（trace/log link）</li>
+<li class="">失败兜底：超时/5xx/无权限时的 UI 反馈一致性与可恢复动作</li>
 </ul>
-<p><strong>2) 稳定性策略</strong></p>
+</li>
+<li class="">
+<p><strong>建立“变更影响面”机制</strong></p>
 <ul>
-<li class="">对不可控内容做“结构断言”：断言状态机、关键字段、引用来源，而不是全文一致。</li>
-<li class="">使用 <code>trace</code>/<code>video</code> 作为失败复盘资产，并把用例按 flaky 策略隔离。</li>
+<li class="">Prompt/模型/检索策略/工具列表任一变化 → 触发评测回归 + 差分报告</li>
 </ul>
-<p><strong>3) 结合接口测试提升端到端确定性</strong></p>
-<ul>
-<li class="">用 <code>APIRequestContext</code> 预置数据（seed），避免用 UI 做所有前置。</li>
-<li class="">必要时对网络层做 mock（例如：固定检索结果、固定工具返回），将 UI 验证聚焦在交互与编排正确性。</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="c-下周可执行清单直接照做">C. 下周可执行清单（直接照做）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#c-%E4%B8%8B%E5%91%A8%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95%E7%9B%B4%E6%8E%A5%E7%85%A7%E5%81%9A" class="hash-link" aria-label="C. 下周可执行清单（直接照做）的直接链接" title="C. 下周可执行清单（直接照做）的直接链接" translate="no">​</a></h3>
-<ul class="contains-task-list containsTaskList_mC6p">
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->定义 3 个核心能力的输出 <code>JSON Schema</code>（含示例/反例），并写入 <code>contract</code> 测试。</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->把 5 条线上/高频失败场景沉淀为“回归用例库”（输入 + 上下文 + 期望）。</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->在后端接入一次执行的最小链路日志（至少包含：检索、规划、工具调用、最终输出）。</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->用 Ginkgo 增加“工具失败注入”测试（超时/5xx/限流/权限），验证重试与降级。</li>
-<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->用 Playwright 覆盖 2 条关键用户路径，并把 trace 产物入库/归档。</li>
-</ul>
+</li>
+</ol>
 <hr>
-<p>如果你希望把每日 Trending 的输出变成长期资产，可以把本文当模板：每天只需要在三大模块里更新“观察点 + 本周落地进展 + 下周清单”，一个月后你就会拥有一套持续迭代的 AI QA 工程化体系。</p>]]></content>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="附数据说明">附：数据说明<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/10/github-trending-ai-qa#%E9%99%84%E6%95%B0%E6%8D%AE%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="附：数据说明的直接链接" title="附：数据说明的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">数据源：GitHub Trending（daily）+ GitHub API</li>
+<li class="">说明：项目筛选与分类为规则驱动，用于每日快速扫榜；后续可按你的团队偏好进一步细化维度（如：是否可回放、是否有 eval harness、是否有观测性组件等）。</li>
+</ul>]]></content>
         <author>
-            <name>Eileen</name>
+            <name>Aime 个人助理</name>
         </author>
         <category label="GitHub Trending AI 测开趋势" term="GitHub Trending AI 测开趋势"/>
         <category label="AI" term="AI"/>
