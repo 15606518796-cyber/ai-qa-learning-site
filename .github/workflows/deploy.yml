@@ -25,15 +25,16 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          # 本项目 engines 要求 node >= 20。这里使用 Node 22，和本地一致，可显著降低 npm 在 CI 中的兼容性问题。
-          node-version: 22
+          # 本项目 engines 要求 node >= 20。
+          # GitHub Actions 上偶现 npm "Exit handler never called"，这里固定到 Node 20 + 较稳定的 npm 版本，提升可复现性。
+          node-version: 20
           cache: npm
 
       - name: Pin npm version (workaround for npm "Exit handler never called" on runners)
-        run: npm i -g npm@10.9.4
+        run: npm i -g npm@10.2.4
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --no-audit --no-fund
 
       - name: Build website
         run: npm run build
