@@ -24,12 +24,8 @@ slorber:
     github: slorber
     newsletter: https://thisweekinreact.com
 
-eileen:
-  name: Eileen
-  title: QA / 测试开发
-  page: true
-
-aime:
-  name: Aime 个人助理
-  title: AI 助理
+xiaoai:
+  name: 小AI
+  title: 资深测试开发工程师 & 办公效率助手
+  image_url: https://github.com/github.png
   page: true

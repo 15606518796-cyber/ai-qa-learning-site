@@ -1,6 +1,6 @@
 ---
 title: GitHub Trending AI 项目深度研究：赋能 QA 的工程化机遇与行动指南
-authors: [aime]
+authors: [xiaoai]
 tags: [github-trending, AI, QA, Automation]
 date: 2026-04-10
 ---
