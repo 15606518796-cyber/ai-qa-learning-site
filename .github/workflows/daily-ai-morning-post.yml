@@ -1,0 +1,79 @@
+name: Daily AI Morning Post
+
+on:
+  schedule:
+    # 08:30 (Asia/Shanghai) == 00:30 UTC
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-ai-morning-post
+  cancel-in-progress: false
+
+jobs:
+  generate-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # 说明：优先使用 BLOG_PUSH_PAT，其次使用 PAT。
+          # 需要 PAT 才能保证 push 到 main 后能触发 Deploy workflow。
+          token: ${{ secrets.BLOG_PUSH_PAT || secrets.PAT }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Pin npm version
+        run: npm i -g npm@10.2.4
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Generate daily blog post
+        env:
+          TZ: Asia/Shanghai
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 可选：如果你希望把 Follow Builders 从“整理版”升级为“摘要版”，请配置 OPENAI_API_KEY。
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          FOLLOW_BUILDERS_LANGUAGE: zh
+          TRENDING_SINCE: daily
+          TRENDING_TOP: '25'
+          TRENDING_AI_TOP: '8'
+        run: node scripts/generate_daily_post.mjs
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit changes
+        id: commit
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git add blog/*.md
+          git commit -m "chore: add ai morning post ($(date +%F))"
+          echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Push to main
+        if: steps.commit.outputs.changed == 'true'
+        run: git push origin main
