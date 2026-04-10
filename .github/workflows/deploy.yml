@@ -29,8 +29,11 @@ jobs:
           node-version: 22
           cache: npm
 
+      - name: Pin npm version (workaround for npm "Exit handler never called" on runners)
+        run: npm i -g npm@10.9.4
+
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build website
         run: npm run build
