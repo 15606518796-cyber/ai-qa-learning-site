@@ -1,0 +1,178 @@
+{
+  "date": "2026-07-30",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "moeru-ai/airi",
+      "html_url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-companion",
+        "ai-vtuber",
+        "airi",
+        "digital-life",
+        "grok-companion",
+        "live2d",
+        "neuro-sama",
+        "neurosama",
+        "openclaw",
+        "vrm",
+        "vtuber"
+      ],
+      "stargazers_count": 45468,
+      "forks_count": 4490,
+      "open_issues_count": 192,
+      "arch_category": "训练 / 数据",
+      "features": [
+        "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported."
+      ],
+      "readme_excerpt": "<picture>\n  <source\n    width=\"100%\"\n    srcset=\"./docs/content/public/banner-dark-1280x640.avif\"\n    media=\"(prefers-color-scheme: dark)\"\n  />\n  <source\n    width=\"100%\"\n    srcset=\"./docs/content/public/banner-light-1280x640.avif\"\n    media=\"(prefers-color-scheme: light), (prefers-color-scheme: no-preference)\"\n  />\n  <img width=\"250\" src=\"./docs/content/public/banner-light-1280x640.avif\" />\n</picture>\n\n<h1 align=\"center\">Project AIRI</h1>\n\n<p align=\"center\">Re-creating Neuro-sama, a soul container of AI waifu / virtual characters to bring them into our world.</p>\n\n<p align=\"center\">\n  [<a href=\"https://discord.gg/TgQ3Cu2F7A\">Join Discord Server</a>] [<a href=\"https://airi.moeru.ai\">Try it</a>] [<a href=\"https://github.com/moeru-ai/airi/blob/main/docs/README.zh-CN.md\">简体中文</a>] [<a href=\"https://github.com/moeru-ai/airi/blob/main/docs/README.ja-JP.md\">日本語</a>] [<a href=\"https://github.com/moeru-ai/airi/blob/main/docs/README.ru-RU.md\">Русский</a>] [<a href=\"https://github.com/moeru-ai/airi/blob/main/docs/README.vi.md\">Tiếng Việt</a>] [<a href=\"https://github.com/moeru-ai/airi/blob/main/docs/README.fr.md\">Français</a>] [<a href=\"https://github.com/moeru-ai/airi/blob/main/docs/README",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stargazers_count": 235672,
+      "forks_count": 35882,
+      "open_issues_count": 98,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/hero.png\" alt=\"ECC - the agent harness operating system\" width=\"100%\" />\n</p>\n\n<p align=\"center\">\n  <strong>Language:</strong>\n  <a href=\"README.md\">English</a> |\n  <a href=\"docs/pt-BR/README.md\">Português (Brasil)</a> |\n  <a href=\"README.zh-CN.md\">简体中文</a> |\n  <a href=\"docs/zh-TW/README.md\">繁體中文</a> |\n  <a href=\"docs/ja-JP/README.md\">日本語</a> |\n  <a href=\"docs/ko-KR/README.md\">한국어</a> |\n  <a href=\"docs/tr/README.md\">Türkçe</a> |\n  <a href=\"docs/ru/README.md\">Русский</a> |\n  <a href=\"docs/vi-VN/README.md\">Tiếng Việt</a> |\n  <a href=\"docs/th/README.md\">ไทย</a> |\n  <a href=\"docs/de-DE/README.md\">Deutsch</a> |\n  <a href=\"docs/es/README.md\">Español</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://discord.gg/36yGMHGFbR\"><img src=\"https://img.shields.io/discord/1496644400590094540?logo=discord&logoColor=white&label=Discord&color=5865F2\" alt=\"Discord\" /></a>\n  <a href=\"https://ecc.tools\"><img src=\"https://img.shields.io/badge/Website-ecc.tools-E07856?logo=googlechrome&logoColor=white\" alt=\"Website\" /></a>\n  <a href=\"https://github.com/apps/ecc-tools\"><img src=\"https://img.shields.io/badge/GitHub%20App-ECC%20Tools-181717?logo=github&logoColor=white\" alt=",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "huggingface/speech-to-speech",
+      "html_url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "assistant",
+        "language-model",
+        "machine-learning",
+        "python",
+        "speech",
+        "speech-synthesis",
+        "speech-to-text",
+        "speech-translation"
+      ],
+      "stargazers_count": 7956,
+      "forks_count": 1002,
+      "open_issues_count": 116,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Build local voice agents with open-source models",
+        "How it works",
+        "Installation",
+        "Supported components",
+        "Run modes",
+        "Realtime API"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <div>&nbsp;</div>\n  <img src=\"https://raw.githubusercontent.com/huggingface/speech-to-speech/main/logo.png\" width=\"600\"/>\n\n# Speech To Speech: Build voice agents with open-source models\n\n[![PyPI](https://img.shields.io/pypi/v/speech-to-speech)](https://pypi.org/project/speech-to-speech/)\n[![Python](https://img.shields.io/pypi/pyversions/speech-to-speech)](https://pypi.org/project/speech-to-speech/)\n[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](./LICENSE)\n\n</div>\n\nA low-latency, fully modular voice-agent pipeline: **VAD -> STT -> LLM -> TTS**, exposed through an **OpenAI Realtime-compatible WebSocket API**. Every component is swappable. The LLM slot speaks OpenAI-compatible protocols, so you can point it at a hosted provider, at [HF Inference Providers](https://huggingface.co/inference-providers), or at a vLLM or llama.cpp server on your own hardware for a fully local, fully open stack.\n\nThis pipeline runs in production as the conversation backend for thousands of [Reachy Mini](https://huggingface.co/blog/reachy-mini) robots.\n\n<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"./docs/assets/endpoint-s",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "1jehuang/jcode",
+      "html_url": "https://github.com/1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-coding-agent",
+        "claude",
+        "cli",
+        "coding-agent",
+        "llm",
+        "mcp",
+        "openai",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "stargazers_count": 13544,
+      "forks_count": 1486,
+      "open_issues_count": 165,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The most RAM efficient harness"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# jcode\n\n[![Latest Release](https://badgen.net/github/release/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/releases)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)\n[![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-blue?style=flat-square)](https://github.com/1jehuang/jcode/releases)\n[![Last Commit](https://badgen.net/github/last-commit/1jehuang/jcode/master?icon=github)](https://github.com/1jehuang/jcode/commits/master)\n[![GitHub Stars](https://badgen.net/github/stars/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/nBe9vGyK9a)\n\nThe most RAM efficient harness <br>\nThe most most intelligent harness\n\n<a href=\"https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.mp4\">\n  <img src=\"https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.webp\" alt=\"jcode memory demonstration\" width=\"800\">\n</a>\n\n<br>\n\n[Website](https://jcode.sh) · [Docs](https://",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "deepfakes/faceswap",
+      "html_url": "https://github.com/deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
+      "language": "Python",
+      "topics": [
+        "deep-face-swap",
+        "deep-learning",
+        "deep-neural-networks",
+        "deepface",
+        "deepfakes",
+        "deeplearning",
+        "face-swap",
+        "faceswap",
+        "fakeapp",
+        "machine-learning",
+        "myfakeapp",
+        "neural-nets",
+        "neural-networks",
+        "openfaceswap"
+      ],
+      "stargazers_count": 56384,
+      "forks_count": 13438,
+      "open_issues_count": 10,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Deepfakes Software For All",
+        "deepfakes\\_faceswap",
+        "Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14\\&t=3120",
+        "Manifesto",
+        "FaceSwap has ethical uses.",
+        "How To setup and run the project"
+      ],
+      "readme_excerpt": "# deepfakes_faceswap\n\n### Important information for **Patreon** and **PayPal** supporters. Please see this forum post: https://forum.faceswap.dev/viewtopic.php?f=14&t=3120\n\n<p align=\"center\">\n  <a href=\"https://faceswap.dev\"><img src=\"https://i.imgur.com/zHvjHnb.png\"></img></a>\n<br />FaceSwap is a tool that utilizes deep learning to recognize and swap faces in pictures and videos.\n</p>\n<p align=\"center\">\n<img src = \"https://i.imgur.com/nWHFLDf.jpg\"></img>\n</p>\n\n<p align=\"center\">\n<a href=\"https://www.patreon.com/bePatron?u=23238350\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\"></img></a>\n&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"https://discord.gg/FC54sYg\"><img src=\"https://i.imgur.com/gIpztkv.png\"></img></a></p>\n\n<p align=\"center\">\n  <a href=\"https://www.dailymotion.com/video/x810mot\"><img src=\"https://user-images.githubusercontent.com/36920800/178301720-b69841bb-a1ca-4c20-91db-a2a10f5692ca.png\"></img></a>\n<br />Emma Stone/Scarlett Johansson FaceSwap using the Phaze-A model\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.youtube.com/watch?v=r1jng79a5xc\"><img src=\"https://img.youtube.com/vi/r1jng79a5xc/0.jpg\"></img></a>\n<br />Jennifer Lawrence/Steve Buscemi Fac",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "microsoft/VibeVoice",
+      "html_url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 51382,
+      "forks_count": 5718,
+      "open_issues_count": 179,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-Source Frontier Voice AI",
+        "⭐️ VibeVoice-ASR is natively multilingual, supporting over 50 languages — check the supported languages for details.",
+        "🔥 The VibeVoice-ASR finetuning code is now available!",
+        "⚡️ **vLLM inference** is now supported for faster inference; see vllm-asr for more details.",
+        "📑 VibeVoice-ASR Technique Report（https://arxiv.org/pdf/2601.18184） is available."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n## 🎙️ VibeVoice: Open-Source Frontier Voice AI\n[![Project Page](https://img.shields.io/badge/Project-Page-blue?logo=githubpages)](https://microsoft.github.io/VibeVoice)\n[![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)\n[![TTS Report](https://img.shields.io/badge/TTS-Report-red?logo=arxiv)](https://openreview.net/pdf?id=FihSkzyxdv)\n[![ASR Report](https://img.shields.io/badge/ASR-Report-yellow?logo=arxiv)](https://arxiv.org/pdf/2601.18184)\n[![Colab](https://img.shields.io/badge/StreamingTTS-Colab-green?logo=googlecolab)](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/VibeVoice_colab.ipynb)\n[![ASR Playground](https://img.shields.io/badge/ASR-Playground-6F42C1?logo=gradio)](https://aka.ms/vibevoice-asr)\n\n[![microsoft%2FVibeVoice | Trendshift](https://trendshift.io/api/badge/repositories/15465)](https://trendshift.io/repositories/15465)\n\n</div>\n\n\n<div align=\"center\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"Figures/VibeVoice_logo_white.png\">\n  <img src=\"Figures/VibeVoice_logo.png\" alt=\"Vib",
+      "_meta_source": "api"
+    }
+  ]
+}
