@@ -1,0 +1,191 @@
+{
+  "date": "2026-07-31",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "huggingface/speech-to-speech",
+      "html_url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "assistant",
+        "language-model",
+        "machine-learning",
+        "python",
+        "speech",
+        "speech-synthesis",
+        "speech-to-text",
+        "speech-translation"
+      ],
+      "stargazers_count": 9086,
+      "forks_count": 1111,
+      "open_issues_count": 125,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Build local voice agents with open-source models",
+        "How it works",
+        "Installation",
+        "Supported components",
+        "Run modes",
+        "Realtime API"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <div>&nbsp;</div>\n  <img src=\"https://raw.githubusercontent.com/huggingface/speech-to-speech/main/logo.png\" width=\"600\"/>\n\n# Speech To Speech: Build voice agents with open-source models\n\n[![PyPI](https://img.shields.io/pypi/v/speech-to-speech)](https://pypi.org/project/speech-to-speech/)\n[![Python](https://img.shields.io/pypi/pyversions/speech-to-speech)](https://pypi.org/project/speech-to-speech/)\n[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](./LICENSE)\n\n</div>\n\nA low-latency, fully modular voice-agent pipeline: **VAD -> STT -> LLM -> TTS**, exposed through an **OpenAI Realtime-compatible WebSocket API**. Every component is swappable. The LLM slot speaks OpenAI-compatible protocols, so you can point it at a hosted provider, at [HF Inference Providers](https://huggingface.co/inference-providers), or at a vLLM or llama.cpp server on your own hardware for a fully local, fully open stack.\n\nThis pipeline runs in production as the conversation backend for thousands of [Reachy Mini](https://huggingface.co/blog/reachy-mini) robots.\n\n<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"./docs/assets/endpoint-s",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "microsoft/AI-For-Beginners",
+      "html_url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "cnn",
+        "computer-vision",
+        "deep-learning",
+        "gan",
+        "machine-learning",
+        "microsoft-for-beginners",
+        "nlp",
+        "rnn"
+      ],
+      "stargazers_count": 54232,
+      "forks_count": 10988,
+      "open_issues_count": 7,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "12 Weeks, 24 Lessons, AI for All!"
+      ],
+      "readme_excerpt": "[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)\n[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)\n[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)\n[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)\n\n[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)\n[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)\n[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://G",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "paperswithbacktest/awesome-systematic-trading",
+      "html_url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "topics": [
+        "algorithmic-trading",
+        "algotrading",
+        "alpha",
+        "arbitrage-bot",
+        "awesome",
+        "awesome-list",
+        "book",
+        "finance",
+        "futures",
+        "futures-historical-data",
+        "futures-market",
+        "futuresmarkets",
+        "paper",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading",
+        "trading-algorithms",
+        "trading-bot",
+        "trading-strategies"
+      ],
+      "stargazers_count": 11169,
+      "forks_count": 1425,
+      "open_issues_count": 47,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+        "97 libraries and packages for research and live trading",
+        "40+ strategies described by institutionals and academics",
+        "55 books for beginners and professionals",
+        "23 videos and interviews",
+        "And also some blogs and courses"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <img src=\"static/images/awesome-systematic-trading.jpeg\" height=200 alt=\"\"/>\n  <h1>Awesome Systematic Trading</h1>\n</div>\n<div align=center><img src=\"https://awesome.re/badge.svg\" /></div>\n\n[希望阅读中文版？点我](./README_zh.md)\n\nWe are collecting a list of resources papers, softwares, books, articles for finding, developing, and running systematic trading (quantitative trading) strategies.\n\n<!-- omit in toc -->\n### What will you find here?\n\n- [97 libraries and packages](#libraries-and-packages) for research and live trading\n- [40+ strategies](#strategies) described by institutionals and academics\n- [55 books](#books) for beginners and professionals\n- [23 videos](#videos) and interviews\n- And also some [blogs](#blogs) and [courses](#courses)\n\n<div align=\"center\" style=\"margin-bottom: 50px; margin-top: 50px;\">\n  <div style=\"border: 2px solid #007bff; border-radius: 10px; padding: 20px; margin-bottom: 20px;\">\n    <h2>📈 Interested in trading strategies implemented in Python?</h2>\n    <p>Visit our comprehensive collection at <a href=\"https://paperswithbacktest.com\" target=\"_blank\">paperswithbacktest.com</a> for exclusive content!</p>\n  </div>\n</div>\n\n\n<details>\n<summary>Cl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "different-ai/openwork",
+      "html_url": "https://github.com/different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 18849,
+      "forks_count": 1917,
+      "open_issues_count": 412,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The open-source alternative to Claude Cowork (powered by opencode)",
+        "Installs OpenWork",
+        "Creates your workspace",
+        "Opens it ready to run",
+        "Provision inference at scale and control which members and teams can use each model provider.",
+        "Invite teammates, create teams, and manage access from one place."
+      ],
+      "readme_excerpt": "# OpenWork\n\nOpenWork is a free, open-source desktop app made for sharing AI workflows. It is an open-source alternative to Claude Cowork and Codex for macOS, Windows, and Linux.\n\nAdd one OpenWork MCP to Codex, Claude Code, Cursor, or another compatible agent and reuse the same skills, MCPs, and connected services across your tools, teammates, and machines. Create something once, share it with coworkers or friends, or keep it for yourself.\n\nThe desktop app is there when you want a dedicated workspace, but it is not required. You can use OpenWork from the agent you already have. For larger organizations, the admin interface lets you publish capabilities, manage access, and configure shared or per-user connections.\n\n[**Download OpenWork**](https://openworklabs.com/download)\n\n<img width=\"1481\" height=\"842\" alt=\"OpenWork desktop app\" src=\"https://github.com/user-attachments/assets/66a8dd9b-5260-488c-957d-e54331e78c1c\" />\n\n## Install with your AI agent\n\nAlready use an AI agent? Copy this prompt and paste it into Claude Code, Cursor, Codex, ChatGPT, or any agent that can run commands on your computer.\n\n```text\nInstall OpenWork on my computer, set up my first workspace, and open it ready t",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "WhiskeySockets/Baileys",
+      "html_url": "https://github.com/WhiskeySockets/Baileys",
+      "description": "Socket-based TS/JavaScript API for WhatsApp Web",
+      "language": "JavaScript",
+      "topics": [
+        "bun",
+        "deno",
+        "nodejs",
+        "reverse-engineering",
+        "typescript",
+        "websockets",
+        "whatsapp-web",
+        "ws"
+      ],
+      "stargazers_count": 10463,
+      "forks_count": 3255,
+      "open_issues_count": 337,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "Socket-based TS/JavaScript API for WhatsApp Web"
+      ],
+      "readme_excerpt": "<h1><img alt=\"Baileys logo\" src=\"https://raw.githubusercontent.com/WhiskeySockets/Baileys/refs/heads/master/Media/logo.png\" height=\"75\"/></h1>\n\n\n> [!CAUTION]\n> NOTICE OF BREAKING CHANGE.\n>\n> As of 7.0.0, multiple breaking changes were introduced into the library.\n>\n> Please check out https://whiskey.so/migrate-latest for more information.\n\nBaileys is a WebSockets-based TypeScript library for interacting with the WhatsApp Web API.\n\nJoin the WhiskeySockets community via the link: https://whiskey.so/discord\n\n# Usage & Guide\n\n> [!IMPORTANT]\n> The new guide is a work in progress. Expect missing pages/content. [Report missing or incorrect content.](https://github.com/WhiskeySockets/baileys.wiki-site/issues/new)\n>\n> **You can still access the old guide here:** [README.md](https://github.com/WhiskeySockets/Baileys/tree/master/README.md), or the [NPM homepage](https://npmjs.com/package/baileys).\n\nThe new guide is posted at https://baileys.wiki .\n\n# Get Support\n\nIf you'd like business to enterprise-level support from Rajeh, the current maintainer of Baileys, you can book a video chat. Book a 1 hour time slot by contacting him on Discord or pre-ordering [here](https://purpshell.dev/book). The",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 55629,
+      "forks_count": 4791,
+      "open_issues_count": 76,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n<p align=\"center\">\n  <img src=\"media/pr-assets/last30days-ad.gif\" width=\"720\" alt=\"last30days - an AI agent-led search engine that searches people, not editors\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**C",
+      "_meta_source": "api"
+    }
+  ]
+}
