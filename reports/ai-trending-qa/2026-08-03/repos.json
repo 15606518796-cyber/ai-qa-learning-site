@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-03",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "microsoft/AI-For-Beginners",
+      "html_url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "cnn",
+        "computer-vision",
+        "deep-learning",
+        "gan",
+        "machine-learning",
+        "microsoft-for-beginners",
+        "nlp",
+        "rnn"
+      ],
+      "stargazers_count": 59449,
+      "forks_count": 11667,
+      "open_issues_count": 16,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "12 Weeks, 24 Lessons, AI for All!"
+      ],
+      "readme_excerpt": "[![GitHub license](https://img.shields.io/github/license/microsoft/AI-For-Beginners.svg)](https://github.com/microsoft/AI-For-Beginners/blob/main/LICENSE)\n[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/graphs/contributors/)\n[![GitHub issues](https://img.shields.io/github/issues/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/issues/)\n[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/AI-For-Beginners.svg)](https://GitHub.com/microsoft/AI-For-Beginners/pulls/)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)\n\n[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/AI-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/AI-For-Beginners/watchers/)\n[![GitHub forks](https://img.shields.io/github/forks/microsoft/AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/AI-For-Beginners/network/)\n[![GitHub stars](https://img.shields.io/github/stars/microsoft/AI-For-Beginners.svg?style=social&label=Star)](https://G",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "usekaneo/kaneo",
+      "html_url": "https://github.com/usekaneo/kaneo",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "language": "TypeScript",
+      "topics": [
+        "hacktoberfest",
+        "hono",
+        "issue-management",
+        "issue-tracker",
+        "jira-alternative",
+        "kanban",
+        "linear-alternative",
+        "project-management",
+        "react",
+        "self-hosted",
+        "typescript"
+      ],
+      "stargazers_count": 6286,
+      "forks_count": 521,
+      "open_issues_count": 86,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+        "**Clean interface** that focuses on your work, not the tool",
+        "**Self-hosted** so your data stays yours",
+        "**Actually fast** because we care about performance",
+        "**Open source** with a permissive MIT license",
+        "\"5432:5432\""
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://kaneo.app\">\n    <img src=\"https://assets.kaneo.app/logo-text.png\" alt=\"Kaneo's logo\" width=\"450\" />\n  </a>\n</p>\n\n<div align=\"center\">\n\n[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/usekaneo/kaneo/ci.yml?branch=main)](https://github.com/usekaneo/kaneo/actions)\n[![Discord](https://img.shields.io/discord/1326250681530843178?color=7389D8&label=&logo=discord&logoColor=ffffff)](https://discord.gg/rU4tSyhXXU)\n[![Sponsors](https://img.shields.io/github/sponsors/andrejsshell)](https://github.com/sponsors/andrejsshell)\n\n</div>\n\n<div align=\"center\">\n  <h3>\n    <a href=\"https://kaneo.app/docs/core\">Quick Start</a>\n    <span> | </span>\n    <a href=\"https://kaneo.app\">Website</a>\n    <span> | </span>\n    <a href=\"https://cloud.kaneo.app\">Cloud</a>\n    <span> | </span>\n    <a href=\"https://discord.gg/rU4tSyhXXU\">Discord</a>\n  </h3>\n</div>\n\n\n<p align=\"center\">\n  <img src=\"https://assets.kaneo.app/readme.png\" alt=\"Kaneo Dashboard\" />\n</p>\n\n## Why Kaneo?\n\nAfter years of using bloated, overcomplicated project management platforms that distracted from actual",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "lyogavin/airllm",
+      "html_url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "chinese-llm",
+        "chinese-nlp",
+        "finetune",
+        "generative-ai",
+        "instruct-gpt",
+        "instruction-set",
+        "llama",
+        "llm",
+        "lora",
+        "open-models",
+        "open-source",
+        "open-source-models",
+        "qlora"
+      ],
+      "stargazers_count": 25834,
+      "forks_count": 2896,
+      "open_issues_count": 119,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AirLLM 70B inference with single 4GB GPU",
+        "Best AI Game Sprite Generator（https://godmodeai.co）",
+        "Best AI Facial Expression Editor（https://crazyfaceai.com）",
+        "Bloome — build & run AI agent teams in the cloud, zero setup（https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606）",
+        "Quick start",
+        "Model Compression"
+      ],
+      "readme_excerpt": "![airllm_logo](https://github.com/lyogavin/airllm/blob/main/assets/airllm_logo_sm.png?v=3&raw=true)\n\n[**Quickstart**](#quickstart) | \n[**Configurations**](#configurations) | \n[**MacOS**](#macos) | \n[**Example notebooks**](#example-python-notebook) | \n[**FAQ**](#faq)\n\n**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **405B Llama 3.1** on **8GB**, **DeepSeek-V3 (671B)** on **~12GB**, and **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, because sparse MoE models stream one expert at a time rather than a whole layer.\n\n<a href=\"https://github.com/lyogavin/airllm/stargazers\">![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social)</a>\n[![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm)\n\n[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/LianjiaTech/BELLE/blob/main/LICENSE)\n[![Generic badge](http",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "zhaoxuya520/reverse-skill",
+      "html_url": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "topics": [],
+      "stargazers_count": 13934,
+      "forks_count": 2065,
+      "open_issues_count": 13,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+        "AI agents don't know whether to use jadx, apktool, Frida, IDA, or BurpSuite for a given task",
+        "APK, ELF, JS, PCAP, and CTF tasks each need different playbooks",
+        "Tools, MCP servers, and scripts are scattered across machines",
+        "The same mistakes get repeated because experience isn't reused",
+        "**Java / JDK** — for jadx and apktool"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"reverse-skill.png\" alt=\"reverse-skill\" width=\"140\" />\n</p>\n\n<h1 align=\"center\">reverse-skill</h1>\n<h3 align=\"center\">Cybersecurity Skills Router · 逆向技能路由包</h3>\n\n<p align=\"center\"><em style=\"font-family: Georgia, serif; font-size: 1.2em; color: #777;\">Navigate the dark waters, sail against the stream.</em></p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/zhaoxuya520/reverse-skill/releases/tag/v1.0.0\"><img src=\"https://img.shields.io/badge/release-v1.0.0-blue\" alt=\"release\"></a>\n  <a href=\"https://github.com/zhaoxuya520/reverse-skill/stargazers\"><img src=\"https://img.shields.io/github/stars/zhaoxuya520/reverse-skill?style=flat&logo=github\" alt=\"stars\"></a>\n  <a href=\"https://github.com/zhaoxuya520/reverse-skill/forks\"><img src=\"https://img.shields.io/github/forks/zhaoxuya520/reverse-skill?style=flat&logo=github\" alt=\"forks\"></a>\n  <a href=\"https://github.com/zhaoxuya520/reverse-skill/issues\"><img src=\"https://img.shields.io/github/issues/zhaoxuya520/reverse-skill?style=flat&logo=github\" alt=\"issues\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-green\" alt=\"license\"></a>\n  <a href=\"CHANGELOG.md\"><img src=\"https://img.sh",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "different-ai/openwork",
+      "html_url": "https://github.com/different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 20430,
+      "forks_count": 2095,
+      "open_issues_count": 441,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The open-source alternative to Claude Cowork (powered by opencode)",
+        "Installs OpenWork",
+        "Creates your workspace",
+        "Opens it ready to run",
+        "Provision inference at scale and control which members and teams can use each model provider.",
+        "Invite teammates, create teams, and manage access from one place."
+      ],
+      "readme_excerpt": "# OpenWork\n\nOpenWork is a free, open-source desktop app made for sharing AI workflows. It is an open-source alternative to Claude Cowork and Codex for macOS, Windows, and Linux.\n\nAdd one OpenWork MCP to Codex, Claude Code, Cursor, or another compatible agent and reuse the same skills, MCPs, and connected services across your tools, teammates, and machines. Create something once, share it with coworkers or friends, or keep it for yourself.\n\nThe desktop app is there when you want a dedicated workspace, but it is not required. You can use OpenWork from the agent you already have. For larger organizations, the admin interface lets you publish capabilities, manage access, and configure shared or per-user connections.\n\n[**Download OpenWork**](https://openworklabs.com/download)\n\n<img width=\"1481\" height=\"842\" alt=\"OpenWork desktop app\" src=\"https://github.com/user-attachments/assets/66a8dd9b-5260-488c-957d-e54331e78c1c\" />\n\n## Install with your AI agent\n\nAlready use an AI agent? Copy this prompt and paste it into Claude Code, Cursor, Codex, ChatGPT, or any agent that can run commands on your computer.\n\n```text\nInstall OpenWork on my computer, set up my first workspace, and open it ready t",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "microsoft/generative-ai-for-beginners",
+      "html_url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "ai",
+        "azure",
+        "chatgpt",
+        "dall-e",
+        "generative-ai",
+        "generativeai",
+        "gpt",
+        "language-model",
+        "llms",
+        "microsoft-for-beginners",
+        "openai",
+        "prompt-engineering",
+        "semantic-search",
+        "transformers"
+      ],
+      "stargazers_count": 114910,
+      "forks_count": 61311,
+      "open_issues_count": 12,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "21 Lessons, Get Started Building with Generative AI"
+      ],
+      "readme_excerpt": "![Generative AI For Beginners](./images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst)\n\n### 21 Lessons teaching everything you need to know to start building Generative AI applications\n\n[![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-Beginners.svg)](https://github.com/microsoft/Generative-AI-For-Beginners/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)\n[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Generative-AI-For-Beginners.svg)](https://GitHub.com/microsoft/Generative-AI-For-Beginners/graphs/contributors/?WT.mc_id=academic-105485-koreyst)\n[![GitHub issues](https://img.shields.io/github/issues/microsoft/Generative-AI-For-Beginners.svg)](https://GitHub.com/microsoft/Generative-AI-For-Beginners/issues/?WT.mc_id=academic-105485-koreyst)\n[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Generative-AI-For-Beginners.svg)](https://GitHub.com/microsoft/Generative-AI-For-Beginners/pulls/?WT.mc_id=academic-105485-koreyst)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com?WT.mc_id=academic-105485-koreyst)\n\n[![G",
+      "_meta_source": "api"
+    }
+  ]
+}
