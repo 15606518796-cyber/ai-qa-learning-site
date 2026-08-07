@@ -1,0 +1,167 @@
+{
+  "date": "2026-08-07",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "html_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "embedding",
+        "llm",
+        "local-first",
+        "long-term-memory",
+        "memory",
+        "openclaw-plugin",
+        "vector-search"
+      ],
+      "stargazers_count": 16548,
+      "forks_count": 1495,
+      "open_issues_count": 532,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+        "**Automatic asset extraction**: Extract Chat Memory and Skills from conversations and tasks; convert documents and code into Wiki and CodeGraph; then manage, review, and route them consistently.",
+        "**Portable & multi-Agent compatible**: Memory assets are decoupled from Agent frameworks — they can move across frameworks and be shared and maintained by multiple Agents and team members.",
+        "**Cold-start friendly**: Import existing documents, codebases, and Agent conversation sessions. New Agent teams can start from existing experience instead of learning from scratch.",
+        "**Chat Memory** retains preferences, facts, decisions, and interaction history.",
+        "Each Agent automatically gets its own memory when created — no need to re-introduce yourself next time."
+      ],
+      "readme_excerpt": "\n<div align=\"center\">\n\n<img src=\"./assets/images/logo.png\" alt=\"TencentDB Agent Memory\" width=\"880\" />\n\n### Agents remember. Humans innovate.\n\n<a href=\"https://trendshift.io/repositories/29310?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-29310\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/29310\" alt=\"TencentCloud%2FTencentDB-Agent-Memory | Trendshift\" width=\"250\" height=\"55\"/></a>\n\n[![npm](https://img.shields.io/npm/v/@tencentdb-agent-memory/memory-tencentdb?color=blue)](https://www.npmjs.com/package/@tencentdb-agent-memory/memory-tencentdb)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)\n[![Node](https://img.shields.io/badge/node-%3E=22.16-brightgreen)](https://nodejs.org/)\n[![OpenClaw](https://img.shields.io/badge/OpenClaw-%3E=2026.3.13-orange)](https://github.com/openclaw/openclaw)\n[![Hermes](https://img.shields.io/badge/Hermes-Gateway-7B61FF)](https://hermes-agent.nousresearch.com/docs/)\n[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/dJQM6mKMF)\n\n[Installation](#installation) · [What is it?](#wh",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 83034,
+      "forks_count": 8899,
+      "open_issues_count": 101,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n<a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n8 slash commands that map to the development lifecycle. Each one activate",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cloudflare/computer",
+      "html_url": "https://github.com/cloudflare/computer",
+      "description": "Give your agent a computer 👾",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 4900,
+      "forks_count": 245,
+      "open_issues_count": 22,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Give your agent a computer 👾",
+        "**Container** projects the SQLite state into a sandbox container as",
+        "**Isolate shell** runs just-bash（https://github.com/vercel-labs/just-bash）",
+        "**Isolate JavaScript** runs an ECMAScript module in a fresh Dynamic",
+        "`examples/container` — runs `computerd` inside a",
+        "`examples/worker-shell` — same HTTP surface as the"
+      ],
+      "readme_excerpt": "# Cloudflare Computer\n\nCloudflare Computer is a virtual filesystem that lives inside a\nDurable Object. The Durable Object holds the authoritative state in\nSQLite and exposes one pluggable execution surface through\n`workspace.runtime`. Three backends ship today:\n\n- **Container** projects the SQLite state into a sandbox container as\n  a real FUSE mount. A sandbox-side daemon (`computerd`) mounts the state\n  as a filesystem and syncs changes back over a capnweb RPC channel.\n  Full Linux userland, real binaries, real network.\n- **Isolate shell** runs [just-bash](https://github.com/vercel-labs/just-bash)\n  in a Dynamic Worker. It reaches the authoritative Workspace over\n  Workers RPC, so there is no second store or sync round trip.\n- **Isolate JavaScript** runs an ECMAScript module in a fresh Dynamic\n  Worker with structured input/results, durable relative imports,\n  configured libraries, Workspace-backed `node:fs/promises`, and trusted `ws:git` and\n  `ws:artifacts` modules.\n\nA Workspace may register multiple backends under stable IDs.\n`workspace.runtime.exec(source, { backend })` is the single execution\nentry point; the selected backend defines whether `source` is a shell\ncommand or an",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 207291,
+      "forks_count": 17905,
+      "open_issues_count": 294,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Skills for Real Engineers. Straight from my .agents directory.",
+        "Ask you which issue tracker you want to use (GitHub, Linear, or local files)",
+        "Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)",
+        "Ask you where you want to save any docs we create",
+        "`/grill-me` - for non-code uses",
+        "`/grill-with-docs` - same as `/grill-me`, but adds more goodies (see below)"
+      ],
+      "readme_excerpt": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\nMy agent skills that I use every day to do real engineering - not vibe coding.\n\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\n\nIf you want to keep up with changes to these ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "huangruiteng/loopx",
+      "html_url": "https://github.com/huangruiteng/loopx",
+      "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "language": "Python",
+      "topics": [
+        "agent-control-plane",
+        "agent-ops",
+        "ai-agents",
+        "codex",
+        "long-running-agents",
+        "loop-engineering",
+        "loopx",
+        "workflow-automation"
+      ],
+      "stargazers_count": 2951,
+      "forks_count": 220,
+      "open_issues_count": 30,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+        "multi-day engineering, research, benchmark, or experiment objectives;",
+        "issue and PR loops that must preserve scope, evidence, and review state;",
+        "recurring heartbeat or monitor work;",
+        "projects with owner, safety, publication, or private-data gates;",
+        "peer-agent teams where ownership, leases, and handoff matter;"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<h1 align=\"center\">LoopX</h1>\n\n<img src=\"docs/assets/loopx-social-preview.png\" alt=\"LoopX loop engineering social preview banner\" width=\"560\">\n\n**The local control plane for long-running AI agent work.**\n\n<sub>Keep objectives, gates, todos, evidence, quota, and handoffs stable while Codex, Claude Code, Cursor, or your own runtime executes bounded turns.</sub>\n\n<a href=\"https://trendshift.io/repositories/102379?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-102379\"><img src=\"https://trendshift.io/api/badge/repositories/102379\" alt=\"huangruiteng/loopx on Trendshift\" width=\"220\" height=\"48\"></a>\n\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Release](https://img.shields.io/github/v/release/huangruiteng/loopx?display_name=tag)](https://github.com/huangruiteng/loopx/releases/latest) [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml) [![Local first](https://img.shields.io/badge/control--plane-local--first-brightgreen.svg)](docs/public-private-boundary.md) [![Loop Agents](https://img.shields.io/badge/status-loop%20agents%20early-orange.svg)](docs/product/release-readiness",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "stargazers_count": 186062,
+      "forks_count": 46055,
+      "open_issues_count": 508,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+        "AutoPilot, Agents, Marketplace, and Build",
+        "45+ connected platforms and hundreds of AI models",
+        "No model API keys or infrastructure setup",
+        "Agents that run on demand, on schedules, and from triggers"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://platform.agpt.co/signup?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=autogpt_readme&amp;utm_content=hero_banner\">\n    <img src=\"docs/home/.gitbook/assets/Banner_image.png\" alt=\"AutoGPT\" width=\"100%\" />\n  </a>\n</p>\n\n<h1 align=\"center\">AutoGPT — AI agents that finish the work</h1>\n\n<p align=\"center\">\n  <strong>Get 10 hours back every week.</strong><br />\n  Describe what you want done. AutoGPT builds the agent, runs it, and reports back.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://platform.agpt.co/signup?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=autogpt_readme&amp;utm_content=header_get_started\"><strong>Get started</strong></a>\n  ·\n  <a href=\"https://platform.agpt.co/tour?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=autogpt_readme&amp;utm_content=tour_header\">Tour</a>\n  ·\n  <a href=\"https://agpt.co/pricing?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=autogpt_readme&amp;utm_content=header_pricing\">Pricing</a>\n  ·\n  <a href=\"https://docs.agpt.co\">Docs</a>\n  ·\n  <a href=\"https://discord.gg/autogpt\">Discord</a>\n  ·\n  <a href=\"#self-host-autogpt\">Self-host</a>\n</p>\n\n<p align=\"center\">\n  <a href",
+      "_meta_source": "api"
+    }
+  ]
+}
