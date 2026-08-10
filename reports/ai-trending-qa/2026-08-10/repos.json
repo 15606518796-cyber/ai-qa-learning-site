@@ -1,0 +1,182 @@
+{
+  "date": "2026-08-10",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "html_url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 11329,
+      "forks_count": 1164,
+      "open_issues_count": 451,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+        "The **Recursive Language Model (RLM)（https://www.primeintellect.ai/blog/rlm）** treats context as variables (*prompt-as-a-variable*) and tools like recursive subagents as function calls (*programmatic tool /sub-agent calling*) inside a persistent REPL.",
+        "The **Continual Harness（https://arxiv.org/abs/2605.09998）** stores supplemental prompts, memories, skill descriptions, and reusable subagent specifications as durable state that Prime Agent can refine through small, evidence-backed updates, local to the session by default.",
+        "**Everything is programmatic:** persistent IPython is the built-in model tool; file operations, shell commands, tool use, subagents, and context management happen through code.",
+        "**Subagents are built in:** `rlm(...)` spawns real child agents for parallel or background work and returns their results programmatically.",
+        "**The harness can improve:** `/refine` reviews the current trajectory and can apply small, evidence-backed updates to supplemental harness state. It never rewrites the immutable base system prompt, and recorded snapshots support rollback."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://primeintellect.ai\">\n    <picture>\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.com/user-attachments/assets/40c36e38-c5bd-4c5a-9cb3-f7b902cd155d\">\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://github.com/user-attachments/assets/6414bc9b-126b-41ca-9307-9e982430cde8\">\n      <img alt=\"Prime Intellect\" src=\"https://github.com/user-attachments/assets/6414bc9b-126b-41ca-9307-9e982430cde8\" width=\"312\" style=\"max-width: 100%;\">\n    </picture>\n  </a>\n</p>\n\n<h3 align=\"center\">\nPrime Agent: A Self-Improving RLM Agent\n</h3>\n\n<p align=\"center\">\n  <a href=\"packages/coding-agent/docs/index.md\">Documentation</a> &bull;\n  <a href=\"https://github.com/PrimeIntellect-ai/verifiers\">Verifiers</a> &bull;\n  <a href=\"https://github.com/PrimeIntellect-ai/prime-rl\">PRIME-RL</a> &bull;\n  <a href=\"https://github.com/badlogic/pi-mono\">pi-mono</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/ci.yml\">\n    <img src=\"https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/ci.yml/badge.svg\" alt=\"CI\" />\n  </a>\n  <a href=\"https://github.com/PrimeIntellect-ai/prime",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "vitali87/code-graph-rag",
+      "html_url": "https://github.com/vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-understanding",
+        "codebase-search",
+        "developer-tools",
+        "graph-database",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "memgraph",
+        "monorepo",
+        "multi-language",
+        "python",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search",
+        "tree-sitter"
+      ],
+      "stargazers_count": 3063,
+      "forks_count": 523,
+      "open_issues_count": 24,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+        "**Release Automation**: `NEWS.md` and the README's \"Latest News\" section now refresh automatically on every release, keeping the changelog current without hand edits.",
+        "**Ruby Support**: Ruby joins the graph through a new pluggable ast-grep tier that adds a language from a single YAML pattern file, emitting `Module`, `Function`, and `Class` nodes plus import edges without a hand-written parser.",
+        "**Structural Search & Replace**: Find and rewrite code by AST pattern with ast-grep, exposed as agent tools so you can match and transform structure across the whole codebase instead of relying on text or regex.",
+        "Ask questions about the codebase in natural language and get answers grounded in the real structure.",
+        "Retrieve the actual source of any function, class, or method by name or by intent."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <!-- Bitbucket strips <picture>/<source> tags, so we use a single light-mode <img>. Restore the theme-aware <picture> block below when the GitHub account is reinstated:\n  <picture>\n    <source srcset=\"assets/logo-dark-any.png\" media=\"(prefers-color-scheme: dark)\">\n    <source srcset=\"assets/logo-light-any.png\" media=\"(prefers-color-scheme: light)\">\n    <img src=\"assets/logo-dark-any.png\" alt=\"Code-Graph-RAG Logo\" width=\"480\">\n  </picture>\n  -->\n  <img src=\"assets/logo-light-any.png\" alt=\"Code-Graph-RAG Logo\" width=\"480\">\n\n  <p>\n  <!-- Badges below are commented out while the GitHub account is suspended. Restore them when the account is reinstated.\n       Stars/Forks: shields.io hits GitHub's API (returns \"repo not found\" for suspended accounts).\n       gitcgr: indexes from GitHub (shows \"not indexed\" while unavailable).\n       MseeP.ai: badge PNG ignores inline height on Bitbucket and renders as a full-size tile.\n  <a href=\"https://github.com/vitali87/code-graph-rag/stargazers\">\n    <img src=\"https://img.shields.io/github/stars/vitali87/code-graph-rag?style=social\" alt=\"GitHub stars\" />\n  </a>\n  <a href=\"https://github.com/vitali87/code-graph-rag/network/memb",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "msitarzewski/agency-agents",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 140822,
+      "forks_count": 22995,
+      "open_issues_count": 110,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+        "**🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)",
+        "**🧠 Personality-Driven**: Unique voice, communication style, and approach",
+        "**📋 Deliverable-Focused**: Real code, processes, and measurable outcomes",
+        "**✅ Production-Ready**: Battle-tested workflows and success metrics",
+        "Identity & personality traits"
+      ],
+      "readme_excerpt": "# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow\n\n> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.\n\n[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)\n[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/msitarzewski)\n[![Download the app](https://img.shields.io/github/v/release/msitarzewski/agency-agents-app?label=Download%20app&color=2563eb)](https://github.com/msitarzewski/agency-agents-app/releases/latest)\n\n> ### 🆕 There's an app now\n>\n> **[Agency Agents](https://agencyagents.app)** is a native app for **macOS, Linux & Windows** that browses the entire roster and installs it into Claude Code, Cursor, Codex, Gemini, Osaurus, and more — w",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "pranshuparmar/witr",
+      "html_url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "topics": [
+        "cli",
+        "containers",
+        "devops",
+        "docker",
+        "freebsd",
+        "go",
+        "golang",
+        "incident-response",
+        "kubernetes",
+        "linux",
+        "macos",
+        "monitoring",
+        "observability",
+        "process-management",
+        "sysadmin",
+        "systemd",
+        "terminal",
+        "troubleshooting",
+        "tui",
+        "windows"
+      ],
+      "stargazers_count": 20742,
+      "forks_count": 727,
+      "open_issues_count": 8,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+        "Detect your operating system (`linux`, `darwin` or `freebsd`)",
+        "Detect your CPU architecture (`amd64` or `arm64`)",
+        "Download the latest released binary and man page",
+        "Install it to `/usr/local/bin/witr`",
+        "Install the man page to `/usr/local/share/man/man1/witr.1`"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# witr\n\n### Why is this running?\nTrace any process, port, container, or file back to the exact chain that started it —<br>\none command, machine-readable JSON, or an [interactive TUI](#3-interactive-mode-tui).\n\n[![Latest Release](https://img.shields.io/github/v/release/pranshuparmar/witr?label=Latest%20Release&style=flat-square)](https://github.com/pranshuparmar/witr/releases/latest) [![Platforms](https://img.shields.io/badge/platforms-linux%20%7C%20macos%20%7C%20windows%20%7C%20freebsd-blue?style=flat-square)](#8-platform-support) <br> [![Package Managers](https://img.shields.io/badge/Package%20Managers-brew%20|%20conda%20|%20aur%20|%20winget%20|%20npm%20|%20ports%20|%20...%20-blue?style=flat-square)](https://repology.org/project/witr/versions)\n\n<a href=\"https://trendshift.io/repositories/18714\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/18714\" alt=\"pranshuparmar/witr on Trendshift\" width=\"250\" height=\"55\" /></a>\n<a href=\"https://www.producthunt.com/products/witr?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-witr\" target=\"_blank\" rel=\"noopener noreferrer\"><img alt=\"witr - Why is this running? T",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 85194,
+      "forks_count": 9169,
+      "open_issues_count": 105,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n<a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n8 slash commands that map to the development lifecycle. Each one activate",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "aigc",
+        "llm",
+        "quant",
+        "quantitative-finance",
+        "quantitative-trading"
+      ],
+      "stargazers_count": 61275,
+      "forks_count": 52024,
+      "open_issues_count": 40,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# 📈 股票智能分析系统\n\n[![GitHub stars](https://img.shields.io/github/stars/ZhuLinsen/daily_stock_analysis?style=social)](https://github.com/ZhuLinsen/daily_stock_analysis/stargazers)\n[![CI](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/ZhuLinsen/daily_stock_analysis/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)\n[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Ready-2088FF?logo=github-actions&logoColor=white)](https://github.com/features/actions)\n[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/r/zhulinsen/daily_stock_analysis)\n\n<p align=\"center\">\n  <img src=\"https://trendshift.io/api/badge/trendshift/repositories/18527/daily?language=Python\" alt=\"#1 Python Repository Of The Day | Trendshift\" width=\"250\" height=\"55\"/>&nbsp;<a href=\"https://hellogithub.com/repository/ZhuLinsen/daily_stock_analysis\" target=\"_blank\"><img src=\"https://api.hellogi",
+      "_meta_source": "api"
+    }
+  ]
+}
