@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-15",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "html_url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 17298,
+      "forks_count": 1033,
+      "open_issues_count": 13,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+      ],
+      "readme_excerpt": "# Diagram Design\n\n**Editorial diagrams your designer won't hate.**\n\n<a href=\"https://trendshift.io/repositories/26141?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-26141\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/26141\" alt=\"cathrynlavery%2Fdiagram-design | Trendshift\" width=\"250\" height=\"55\"/></a>\n\n![Content site architecture](docs/screenshots/architecture.png)\n\n![The self-improving loop](docs/screenshots/loop.png)\n\n*New in 2.0 — the Loop: flywheels with a shared-memory hub. The dashed lines are the write-backs.*\n\n*New in 2.3: semantic system patterns and optional accessible motion, while static output stays the default.*\n\n27 visual types. One agent skill for Claude Code, Codex, and Pi. Semantic patterns describe behavior separately from layout, so a queue, policy trace, or trust boundary can use the nearest existing type without expanding the type count. Static HTML remains the default; optional motion is available for ordered explanations. The skill also redraws draw.io or Mermaid sources at a chosen format, size, and detail level.\n\nNo Figma. No generic rounded boxes. No 30-minute color-p",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cactus-compute/needle",
+      "html_url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "topics": [
+        "cactus",
+        "gemini",
+        "gemma",
+        "llm",
+        "on-device-ai"
+      ],
+      "stargazers_count": 5623,
+      "forks_count": 374,
+      "open_issues_count": 22,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+        "**Self-contained**: weights baked into a single 14MB engine; no separate model files to manage, and inference does no network.",
+        "**Simple contract**: tool calls come back as structured data, text in, JSON out; a byte-level grammar compiled from your schemas constrains every token.",
+        "**Confidence-gated**: every response carries a calibrated confidence score from a learned head; set a threshold, act above it, escalate below it.",
+        "**Tool retrieval**: declare a large catalogue and a built-in retrieval head renders only the top five tools per turn, with the grammar constrained to that subset.",
+        "**Bounded memory**: a 256-token sliding window with the tools pinned as KV sinks, so total memory stays near 28MB no matter how long the conversation runs."
+      ],
+      "readme_excerpt": "![Needle](assets/banner.png)\n\n# Needle 2\n\nNeedle 2 is an open 45M-parameter model for tool calling, device use and structured extraction. The whole model is a single 14MB binary that runs a full session in about 28MB of RAM. It is built on our Simple Attention Network findings, compressed to CQ2-bit with Cactus Quants, and baked into its own engine. On the benchmarks below, Needle 2 trades wins with other small models like FunctionGemma 270M, LFM2.5 230M and Apple FM, at 5x to 70x smaller, and 2 bits against their f16.\n\nThis repository is the Python package: inference, LoRA fine-tuning, and export. `pip install cactus-needle`, describe your tools, and call them from Python. The inference engine is fetched once from Hugging Face and cached; there is nothing else to build, and offline setup for air gapped devices is covered in [doc/apis.md](doc/apis.md).\n\n- **Self-contained**: weights baked into a single 14MB engine; no separate model files to manage, and inference does no network.\n- **Simple contract**: tool calls come back as structured data, text in, JSON out; a byte-level grammar compiled from your schemas constrains every token.\n- **Confidence-gated**: every response carries a c",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "megadose/holehe",
+      "html_url": "https://github.com/megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "topics": [
+        "ebay",
+        "email",
+        "emails",
+        "information-gathering",
+        "instagram",
+        "open-source-intelligence",
+        "osint",
+        "osint-python",
+        "osint-tools",
+        "pypi",
+        "python",
+        "social-network",
+        "tellonym",
+        "trio",
+        "twitter"
+      ],
+      "stargazers_count": 12858,
+      "forks_count": 1717,
+      "open_issues_count": 101,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+        "rateLitmit : Lets you know if you've been rate-limited.",
+        "exists : If an account exists for the email on that service.",
+        "emailrecovery : Sometimes partially obfuscated recovery emails are returned.",
+        "phoneNumber : Sometimes partially obfuscated recovery phone numbers are returned.",
+        "others : Any extra info."
+      ],
+      "readme_excerpt": "# **Holehe OSINT - Email to Registered Accounts**\n👋 Hi there! For any professional inquiries or collaborations, please reach out to me at:\nmegadose@protonmail.com\n\n📧 Preferably, use your professional email for correspondence. Let's keep it short and sweet, and all in English!\n\n![](https://files.catbox.moe/5we2ya.png)\n![PyPI](https://img.shields.io/pypi/v/holehe) ![PyPI - Week](https://img.shields.io/pypi/dw/holehe) ![PyPI - Downloads](https://static.pepy.tech/badge/holehe) ![PyPI - License](https://img.shields.io/pypi/l/holehe)\n\n# [Holehe Online Version](https://osint.industries/)\n\n## **Summary**\n\n*Efficiently finding registered accounts from emails.*\n\nHolehe checks if an email is attached to an account on sites like twitter, instagram, imgur and more than 120 others.\n\n+ Retrieves information using the forgotten password function.\n+ **[Does not alert the target email.](https://github.com/megadose/holehe/issues/12)**\n+ Runs on [Python 3](https://www.python.org/downloads/release/python-370/).\n## 🛠️ Installation\n\n### With PyPI\n\n```pip3 install holehe```\n\n### With Github\n\n```bash\ngit clone https://github.com/megadose/holehe.git\ncd holehe/\npython3 setup.py install\n```\n\n### With Docker\n\n",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "macro-inc/macro",
+      "html_url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "all-in-one",
+        "crm",
+        "crm-system",
+        "email",
+        "linear",
+        "mcp",
+        "messaging",
+        "notes",
+        "notion",
+        "office",
+        "rust",
+        "slack",
+        "slack-alternative",
+        "startup",
+        "startup-tools",
+        "typescript",
+        "workspace"
+      ],
+      "stargazers_count": 3041,
+      "forks_count": 307,
+      "open_issues_count": 53,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "Multi-account. Triage all your Google accounts in a single inbox, with the same tagging and sharing system. Or triage individually.",
+        "Unified inbox: emails, messages, @mentions, and tasks to complete, all in the same list. Use `j` `k` and `e` to navigate everything.",
+        "Better AI, with a tools/MCP surface designed to work across inboxes and to help your agents more accurately retrieve information. For example, we expose a unified search tool that allows agents to search all file attachment PDFs (parsed out of email) directly, rather than pulling email threads then attachments. You can also draft, edit and send emails right from AI chats, without opening your email.",
+        "Multitasking ability — Macro has a built-in window manager that lets you create 3+ splits (scales with monitor size) so you can draft emails while reviewing prior threads.",
+        "Company/Contact objects. Macro has native CRM capability so you can `cmd+k` to a contact, like tim@acme.com to see all emails between you and that person, or companies, to see all emails and files between everyone on your team and everyone at that company, e.g. `@acme.com`. All of this right from your email without having to open a heavyweight CRM like HubSpot or Salesforce. Email aggregation by contact or company is also available to your agents so they can better assist with CRM-type queries and actions."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a target=\"_blank\" href=\"https://macro.com\">\n    <img width=\"2195\" height=\"721\" alt=\"Frame 11\" src=\"https://github.com/user-attachments/assets/50405352-785e-4984-b24f-544e89731acb\" />\n  </a>\n\n  <br />\n  <br />\n\n  <p>\n    <a href=\"https://macro.com/app\">Sign up</a>\n    ·\n    <a href=\"https://docs.macro.com\">Docs</a>\n    ·\n    <a href=\"https://cal.com/team/macro/macro-demo-call?metadata%5Bfbp%5D=fb.1.1778954074516.817396687896036613\">Book demo</a>\n    ·\n    <a href=\"https://macro.com\">Website</a>\n    ·\n    <a href=\"mailto:contact@macro.com\">Feature requests</a>\n    ·\n    <a href=\"CONTRIBUTING.md\">Contribute</a>\n    ·\n    <a href=\"mailto:teo@macro.com\">Hiring</a>\n  </p>\n</div>\n\n<br />\n\nMacro is the all-in-one workspace for you and your team. It unifies email + messages + docs + tasks + agents + CRM into a single fast interface with shared team-level memory. Everything in your workspace is @linked and searchable so your team (and your agents) never have to switch tools.\n\n<br />\n\n# Why Macro\n\nWe built Macro because we wanted a single operating system for our startup. There are many good software products, and we used them all — Slack, Linear, Notion, HubSpot, and ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "smicallef/spiderfoot",
+      "html_url": "https://github.com/smicallef/spiderfoot",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "language": "Python",
+      "topics": [
+        "attacksurface",
+        "cti",
+        "cybersecurity",
+        "footprinting",
+        "hacking",
+        "information-gathering",
+        "information-security",
+        "infosec",
+        "intelligence-gathering",
+        "osint",
+        "osint-framework",
+        "osint-reconnaissance",
+        "osint-tool",
+        "pentesting",
+        "python",
+        "recon",
+        "security-tools",
+        "threat-intelligence",
+        "threatintel"
+      ],
+      "stargazers_count": 20952,
+      "forks_count": 3342,
+      "open_issues_count": 284,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+        "Web based UI or CLI",
+        "Over 200 modules (see below)",
+        "Python 3.7+",
+        "YAML-configurable correlation engine with 37 pre-defined rules",
+        "CSV/JSON/GEXF export"
+      ],
+      "readme_excerpt": "<a href=\"https://www.spiderfoot.net/r.php?u=aHR0cHM6Ly93d3cuc3BpZGVyZm9vdC5uZXQv&s=os_gh\"><img src=\"https://www.spiderfoot.net/wp-content/themes/spiderfoot/img/spiderfoot-wide.png\"></a>\n\n\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/smicallef/spiderfoot/master/LICENSE)\n[![Python Version](https://img.shields.io/badge/python-3.7+-green)](https://www.python.org)\n[![Stable Release](https://img.shields.io/badge/version-4.0-blue.svg)](https://github.com/smicallef/spiderfoot/releases/tag/v4.0)\n[![CI status](https://github.com/smicallef/spiderfoot/workflows/Tests/badge.svg)](https://github.com/smicallef/spiderfoot/actions?query=workflow%3A\"Tests\")\n[![Last Commit](https://img.shields.io/github/last-commit/smicallef/spiderfoot)](https://github.com/smicallef/spiderfoot/commits/master)\n[![Codecov](https://codecov.io/github/smicallef/spiderfoot/coverage.svg)](https://codecov.io/github/smicallef/spiderfoot)\n[![Twitter Follow](https://img.shields.io/twitter/follow/spiderfoot?label=follow&style=social)](https://twitter.com/spiderfoot)\n[![Discord](https://img.shields.io/discord/770524432464216074)](https://discord.gg/vyvztrG)\n\n**SpiderFoot** is a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "citrolabs/ego-lite",
+      "html_url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "browser",
+        "browser-automation",
+        "claude-code",
+        "codex",
+        "hermes-agent",
+        "skills",
+        "skills-sh"
+      ],
+      "stargazers_count": 10381,
+      "forks_count": 528,
+      "open_issues_count": 106,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"docs/assets/banner.png\" alt=\"ego lite\" width=\"100%\" />\n\n**The fastest browser for AI agents to run browser automation**\n\n<a href=\"https://trendshift.io/repositories/42334?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-42334\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/42334\" alt=\"citrolabs%2Fego-lite | Trendshift\" width=\"250\" height=\"55\"/></a>\n\n<p>\n  <a href=\"https://cdn.ego.app/setup/macos/arm64/egolite-Y7MbxKIuhzFB.dmg\"><img src=\"https://img.shields.io/badge/Download-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white\" alt=\"Download for Apple Silicon\" /></a>\n  <a href=\"https://cdn.ego.app/setup/macos/x64/egolite-Y7MbxKIuhzFB.dmg\"><img src=\"https://img.shields.io/badge/Download-Intel-000000?style=for-the-badge&logo=apple&logoColor=white\" alt=\"Download for Intel\" /></a>\n  <a href=\"https://discord.gg/5eGZVvHbTq\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white\" alt=\"Discord\" /></a>\n  <a href=\"https://x.com/ego_agent\"><img src=\"https://img.shields.io/badge/Follow-%40ego__agent-000000?style",
+      "_meta_source": "api"
+    }
+  ]
+}
