@@ -1,0 +1,202 @@
+{
+  "date": "2026-08-16",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "html_url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "topics": [],
+      "stargazers_count": 18659,
+      "forks_count": 1123,
+      "open_issues_count": 19,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+      ],
+      "readme_excerpt": "# Diagram Design\n\n**Editorial diagrams your designer won't hate.**\n\n<a href=\"https://trendshift.io/repositories/26141?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-26141\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/26141\" alt=\"cathrynlavery%2Fdiagram-design | Trendshift\" width=\"250\" height=\"55\"/></a>\n\n![Content site architecture](docs/screenshots/architecture.png)\n\n![The self-improving loop](docs/screenshots/loop.png)\n\n*New in 2.0 — the Loop: flywheels with a shared-memory hub. The dashed lines are the write-backs.*\n\n*New in 2.3: semantic system patterns and optional accessible motion, while static output stays the default.*\n\n27 visual types. One agent skill for Claude Code, Codex, and Pi. Semantic patterns describe behavior separately from layout, so a queue, policy trace, or trust boundary can use the nearest existing type without expanding the type count. Static HTML remains the default; optional motion is available for ordered explanations. The skill also redraws draw.io or Mermaid sources at a chosen format, size, and detail level.\n\nNo Figma. No generic rounded boxes. No 30-minute color-p",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cactus-compute/needle",
+      "html_url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "topics": [
+        "cactus",
+        "gemini",
+        "gemma",
+        "llm",
+        "on-device-ai"
+      ],
+      "stargazers_count": 6079,
+      "forks_count": 406,
+      "open_issues_count": 25,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+        "**Self-contained**: weights baked into a single 14MB engine; no separate model files to manage, and inference does no network.",
+        "**Simple contract**: tool calls come back as structured data, text in, JSON out; a byte-level grammar compiled from your schemas constrains every token.",
+        "**Confidence-gated**: every response carries a calibrated confidence score from a learned head; set a threshold, act above it, escalate below it.",
+        "**Tool retrieval**: declare a large catalogue and a built-in retrieval head renders only the top five tools per turn, with the grammar constrained to that subset.",
+        "**Bounded memory**: a 256-token sliding window with the tools pinned as KV sinks, so total memory stays near 28MB no matter how long the conversation runs."
+      ],
+      "readme_excerpt": "![Needle](assets/banner.png)\n\n# Needle 2\n\nNeedle 2 is an open 45M-parameter model for tool calling, device use and structured extraction. The whole model is a single 14MB binary that runs a full session in about 28MB of RAM. It is built on our Simple Attention Network findings, compressed to CQ2-bit with Cactus Quants, and baked into its own engine. On the benchmarks below, Needle 2 trades wins with other small models like FunctionGemma 270M, LFM2.5 230M and Apple FM, at 5x to 70x smaller, and 2 bits against their f16.\n\nThis repository is the Python package: inference, LoRA fine-tuning, and export. `pip install cactus-needle`, describe your tools, and call them from Python. The inference engine is fetched once from Hugging Face and cached; there is nothing else to build, and offline setup for air gapped devices is covered in [doc/apis.md](doc/apis.md).\n\n- **Self-contained**: weights baked into a single 14MB engine; no separate model files to manage, and inference does no network.\n- **Simple contract**: tool calls come back as structured data, text in, JSON out; a byte-level grammar compiled from your schemas constrains every token.\n- **Confidence-gated**: every response carries a c",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "unslothai/unsloth",
+      "html_url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek",
+        "fine-tuning",
+        "gemma",
+        "image-generation",
+        "llama",
+        "llm",
+        "llms",
+        "openai",
+        "python",
+        "qwen",
+        "reinforcement-learning",
+        "self-hosted",
+        "stable-diffusion",
+        "text-to-speech",
+        "tts",
+        "ui",
+        "unsloth"
+      ],
+      "stargazers_count": 72063,
+      "forks_count": 6495,
+      "open_issues_count": 1221,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+        "Discord（https://discord.gg/unsloth）",
+        "𝕏 (Twitter)（https://x.com/UnslothAI）",
+        "Reddit（https://reddit.com/r/unsloth）",
+        "Run and train LLMs, diffusion, embedding, audio models: Kimi K3（https://unsloth.ai/docs/models/kimi-k3）, MiniMax-H3, Qwen3.8, Muse Glimmer（https://unsloth.ai/docs/models/muse-glimmer）, DeepSeek-V4（https://unsloth.ai/docs/models/deepseek-v4）, Gemma 4（https://unsloth.ai/docs/models/gemma-4）.",
+        "**Agents & Tools:** Use local models with Claude Code（https://unsloth.ai/docs/basics/claude-code）, Codex（https://unsloth.ai/docs/basics/codex）, and MCP（https://unsloth.ai/docs/basics/mcp）, including tool calling and code execution."
+      ],
+      "readme_excerpt": "<h1 align=\"center\" style=\"margin:0;\">\n  <a href=\"https://unsloth.ai/docs\"><picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20logo%20white%20text.png\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20logo%20black%20text.png\">\n    <img alt=\"Unsloth logo\" src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20logo%20black%20text.png\" height=\"80\" style=\"max-width:100%;\">\n  </picture></a>\n</h1>\n<h3 align=\"center\" style=\"margin: 0; margin-top: 0;\">\nUnsloth is the first desktop app to run and train models.\n</h3>\n\n<p align=\"center\">\n  <a href=\"#-features\">Features</a> •\n  <a href=\"#-install\">Quickstart</a> •\n  <a href=\"#-free-notebooks\">Notebooks</a> •\n  <a href=\"https://unsloth.ai/docs\">Documentation</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://unsloth.ai/docs/desktop\">\n    <img height=\"400\" alt=\"unsloth desktop\" src=\"https://unsloth.ai/cgi/image/unsloth_qwen3.8_final_ut2eqWnYJ-SLmu0s7x522.png?format=raw\" />\n  </a>\n</p>\n\n## ⚡ Get started\nDownload the native Unsloth Desktop app for your opera",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "MakazhanAlpamys/Soup",
+      "html_url": "https://github.com/MakazhanAlpamys/Soup",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "consumer-gpu",
+        "dpo",
+        "fine-tuning",
+        "gguf",
+        "huggingface",
+        "llm",
+        "llmops",
+        "local-ai",
+        "local-llm",
+        "lora",
+        "low-vram",
+        "machine-learning",
+        "ollama",
+        "peft",
+        "python",
+        "pytorch",
+        "qlora",
+        "sft",
+        "transformers"
+      ],
+      "stargazers_count": 1681,
+      "forks_count": 262,
+      "open_issues_count": 90,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+        "**Zero SSH.** Never SSH into a broken GPU box again.",
+        "**One config.** A simple YAML file is all you need.",
+        "**Auto everything.** Batch size, GPU detection, quantization — handled.",
+        "**Works locally.** Train on your own GPU with QLoRA. No cloud required.",
+        "**A suite scored 0.225 for a model that got it right 40/40.** `mini_tool_call` was"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"soup.png\" alt=\"Soup\" width=\"280\">\n</p>\n\n<h1 align=\"center\">Soup</h1>\n\n<p align=\"center\">\n  <strong>Fine-tune and post-train LLMs in one command. No SSH, no config hell.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trysoup.dev\">Website</a> &middot;\n  <a href=\"#quick-start\">Quick Start</a> &middot;\n  <a href=\"#configuration\">Config</a> &middot;\n  <a href=\"#documentation\">Docs</a> &middot;\n  <a href=\"docs/commands.md\">Commands</a> &middot;\n  <a href=\"docs/models.md\">Models</a> &middot;\n  <a href=\"https://discord.gg/8RgVbFA6Zq\">Discord</a> &middot;\n  <a href=\"https://www.producthunt.com/products/soup-cli\">Product Hunt</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pypi.org/project/soup-cli/\"><img src=\"https://img.shields.io/pypi/v/soup-cli?color=blue\" alt=\"PyPI\"></a>\n  <a href=\"https://pepy.tech/project/soup-cli\"><img src=\"https://img.shields.io/pepy/dt/soup-cli?color=blue\" alt=\"Downloads\"></a>\n  <img src=\"https://img.shields.io/badge/python-3.10--3.12-blue\" alt=\"Python 3.10-3.12\">\n  <img src=\"https://img.shields.io/badge/license-Apache--2.0-blue\" alt=\"Apache-2.0 License\">\n  <a href=\"https://github.com/MakazhanAlpamys/Soup/actions\"><img src=\"http",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "github/spec-kit",
+      "html_url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "copilot",
+        "development",
+        "engineering",
+        "prd",
+        "spec",
+        "spec-driven"
+      ],
+      "stargazers_count": 129213,
+      "forks_count": 11552,
+      "open_issues_count": 333,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "💫 Toolkit to help you get started with Spec-Driven Development",
+        "🤔 What is Spec-Driven Development?",
+        "⚡ Get Started",
+        "📽️ Video Overview",
+        "🌍 Community",
+        "🤖 Supported AI Coding Agent Integrations"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/github/spec-kit/main/media/logo_large.webp\" alt=\"Spec Kit Logo\" width=\"200\" height=\"200\"/>\n    <h1>🌱 Spec Kit</h1>\n    <h3><em>Define what to build before building it — with any AI coding agent.</em></h3>\n</div>\n\n<p align=\"center\">\n    <strong>An open source toolkit for building high-quality software with any AI coding agent — a ready-to-use spec-driven process (or bring your own), endlessly extensible, community-driven, and built for your whole organization.</strong>\n</p>\n\n<p align=\"center\">\n    <a href=\"https://github.com/github/spec-kit/releases/latest\"><img src=\"https://img.shields.io/github/v/release/github/spec-kit\" alt=\"Latest Release\"/></a>\n    <a href=\"https://github.com/github/spec-kit/stargazers\"><img src=\"https://img.shields.io/github/stars/github/spec-kit?style=social\" alt=\"GitHub stars\"/></a>\n    <a href=\"https://github.com/github/spec-kit/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/github/spec-kit\" alt=\"License\"/></a>\n    <a href=\"https://github.github.io/spec-kit/\"><img src=\"https://img.shields.io/badge/docs-GitHub_Pages-blue\" alt=\"Documentation\"/></a>\n</p>\n\n<p align=\"center\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "megadose/holehe",
+      "html_url": "https://github.com/megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "topics": [
+        "ebay",
+        "email",
+        "emails",
+        "information-gathering",
+        "instagram",
+        "open-source-intelligence",
+        "osint",
+        "osint-python",
+        "osint-tools",
+        "pypi",
+        "python",
+        "social-network",
+        "tellonym",
+        "trio",
+        "twitter"
+      ],
+      "stargazers_count": 13124,
+      "forks_count": 1741,
+      "open_issues_count": 103,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+        "rateLitmit : Lets you know if you've been rate-limited.",
+        "exists : If an account exists for the email on that service.",
+        "emailrecovery : Sometimes partially obfuscated recovery emails are returned.",
+        "phoneNumber : Sometimes partially obfuscated recovery phone numbers are returned.",
+        "others : Any extra info."
+      ],
+      "readme_excerpt": "# **Holehe OSINT - Email to Registered Accounts**\n👋 Hi there! For any professional inquiries or collaborations, please reach out to me at:\nmegadose@protonmail.com\n\n📧 Preferably, use your professional email for correspondence. Let's keep it short and sweet, and all in English!\n\n![](https://files.catbox.moe/5we2ya.png)\n![PyPI](https://img.shields.io/pypi/v/holehe) ![PyPI - Week](https://img.shields.io/pypi/dw/holehe) ![PyPI - Downloads](https://static.pepy.tech/badge/holehe) ![PyPI - License](https://img.shields.io/pypi/l/holehe)\n\n# [Holehe Online Version](https://osint.industries/)\n\n## **Summary**\n\n*Efficiently finding registered accounts from emails.*\n\nHolehe checks if an email is attached to an account on sites like twitter, instagram, imgur and more than 120 others.\n\n+ Retrieves information using the forgotten password function.\n+ **[Does not alert the target email.](https://github.com/megadose/holehe/issues/12)**\n+ Runs on [Python 3](https://www.python.org/downloads/release/python-370/).\n## 🛠️ Installation\n\n### With PyPI\n\n```pip3 install holehe```\n\n### With Github\n\n```bash\ngit clone https://github.com/megadose/holehe.git\ncd holehe/\npython3 setup.py install\n```\n\n### With Docker\n\n",
+      "_meta_source": "api"
+    }
+  ]
+}
