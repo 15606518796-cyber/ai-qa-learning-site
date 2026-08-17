@@ -1,0 +1,119 @@
+{
+  "date": "2026-08-17",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "unslothai/unsloth",
+      "html_url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "chatgpt",
+        "deepseek",
+        "fine-tuning",
+        "gemma",
+        "image-generation",
+        "llama",
+        "llm",
+        "llms",
+        "openai",
+        "python",
+        "qwen",
+        "reinforcement-learning",
+        "self-hosted",
+        "stable-diffusion",
+        "text-to-speech",
+        "tts",
+        "ui",
+        "unsloth"
+      ],
+      "stargazers_count": 72626,
+      "forks_count": 6549,
+      "open_issues_count": 1266,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+        "Discord（https://discord.gg/unsloth）",
+        "𝕏 (Twitter)（https://x.com/UnslothAI）",
+        "Reddit（https://reddit.com/r/unsloth）",
+        "Run and train LLMs, diffusion, embedding, audio models: Kimi K3（https://unsloth.ai/docs/models/kimi-k3）, MiniMax-H3, Qwen3.8, Muse Glimmer（https://unsloth.ai/docs/models/muse-glimmer）, DeepSeek-V4（https://unsloth.ai/docs/models/deepseek-v4）, Gemma 4（https://unsloth.ai/docs/models/gemma-4）.",
+        "**Agents & Tools:** Use local models with Claude Code（https://unsloth.ai/docs/basics/claude-code）, Codex（https://unsloth.ai/docs/basics/codex）, and MCP（https://unsloth.ai/docs/basics/mcp）, including tool calling and code execution."
+      ],
+      "readme_excerpt": "<h1 align=\"center\" style=\"margin:0;\">\n  <a href=\"https://unsloth.ai/docs\"><picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20logo%20white%20text.png\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20logo%20black%20text.png\">\n    <img alt=\"Unsloth logo\" src=\"https://raw.githubusercontent.com/unslothai/unsloth/main/images/unsloth%20logo%20black%20text.png\" height=\"80\" style=\"max-width:100%;\">\n  </picture></a>\n</h1>\n<h3 align=\"center\" style=\"margin: 0; margin-top: 0;\">\nUnsloth is the first desktop app to run and train models.\n</h3>\n\n<p align=\"center\">\n  <a href=\"#-features\">Features</a> •\n  <a href=\"#-install\">Quickstart</a> •\n  <a href=\"#-free-notebooks\">Notebooks</a> •\n  <a href=\"https://unsloth.ai/docs\">Documentation</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://unsloth.ai/docs/desktop\">\n    <img height=\"400\" alt=\"unsloth desktop\" src=\"https://unsloth.ai/cgi/image/unsloth_qwen3.8_final_ut2eqWnYJ-SLmu0s7x522.png?format=raw\" />\n  </a>\n</p>\n\n## ⚡ Get started\nDownload the native Unsloth Desktop app for your opera",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ToolJet/ToolJet",
+      "html_url": "https://github.com/ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "language": "JavaScript",
+      "topics": [
+        "ai-app-builder",
+        "docker",
+        "hacktoberfest",
+        "internal-applications",
+        "internal-project",
+        "internal-tool",
+        "internal-tools",
+        "javascript",
+        "kubernetes",
+        "low-code",
+        "low-code-development-platform",
+        "low-code-framework",
+        "no-code",
+        "nodejs",
+        "reactjs",
+        "self-hosted",
+        "typescript",
+        "web-development-tools",
+        "workflow-automation"
+      ],
+      "stargazers_count": 40067,
+      "forks_count": 5331,
+      "open_issues_count": 1131,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+        "**Visual App Builder:** 60+ responsive components (Tables, Charts, Forms, Lists, Progress Bars, and more).",
+        "**ToolJet Database:** Built-in no-code database.",
+        "**Multi-page Apps & Multiplayer Editing:** Build complex apps collaboratively.",
+        "**80+ Data Sources:** Connect to databases, APIs, cloud storage, and SaaS tools.",
+        "**Flexible Deployment:** Self-host with Docker, Kubernetes, AWS, GCP, Azure, and more."
+      ],
+      "readme_excerpt": "ToolJet is the open-source foundation of ToolJet AI - the AI-native platform for building and deploying internal tools, workflows and AI agents. The community edition provides a powerful visual builder, drag-and-drop UI, and integrations with databases, APIs, SaaS apps, and object storage. For AI-powered UI generation, query building, debugging, and enterprise features, see ToolJet AI.\n\n :star: If you find ToolJet useful, please consider giving us a star on GitHub! Your support helps us continue to innovate and deliver exciting features.\n\n![Docker Cloud Build Status](https://img.shields.io/docker/automated/tooljet/tooljet-ce)\n![Number of GitHub contributors](https://img.shields.io/github/contributors/tooljet/tooljet)\n[![Number of GitHub issues that are open](https://img.shields.io/github/issues/ToolJet/ToolJet)](https://github.com/ToolJet/ToolJet/issues)\n[![Number of GitHub stars](https://img.shields.io/github/stars/ToolJet/ToolJet)](https://github.com/ToolJet/ToolJet/stargazers)\n![Number of GitHub closed issues](https://img.shields.io/github/issues-closed/tooljet/tooljet)\n![Number of GitHub pull requests that are open](https://img.shields.io/github/issues-pr-raw/tooljet/tooljet)\n!",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cactus-compute/needle",
+      "html_url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "topics": [
+        "cactus",
+        "gemini",
+        "gemma",
+        "llm",
+        "on-device-ai"
+      ],
+      "stargazers_count": 6611,
+      "forks_count": 435,
+      "open_issues_count": 27,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+        "**Self-contained**: weights baked into a single 14MB engine; no separate model files to manage, and inference does no network.",
+        "**Simple contract**: tool calls come back as structured data, text in, JSON out; a byte-level grammar compiled from your schemas constrains every token.",
+        "**Confidence-gated**: every response carries a calibrated confidence score from a learned head; set a threshold, act above it, escalate below it.",
+        "**Tool retrieval**: declare a large catalogue and a built-in retrieval head renders only the top five tools per turn, with the grammar constrained to that subset.",
+        "**Bounded memory**: a 256-token sliding window with the tools pinned as KV sinks, so total memory stays near 28MB no matter how long the conversation runs."
+      ],
+      "readme_excerpt": "![Needle](assets/banner.png)\n\n# Needle 2\n\nNeedle 2 is an open 45M-parameter model for tool calling, device use and structured extraction. The whole model is a single 14MB binary that runs a full session in about 28MB of RAM. It is built on our Simple Attention Network findings, compressed to CQ2-bit with Cactus Quants, and baked into its own engine. On the benchmarks below, Needle 2 trades wins with other small models like FunctionGemma 270M, LFM2.5 230M and Apple FM, at 5x to 70x smaller, and 2 bits against their f16.\n\nThis repository is the Python package: inference, LoRA fine-tuning, and export. `pip install cactus-needle`, describe your tools, and call them from Python. The inference engine is fetched once from Hugging Face and cached; there is nothing else to build, and offline setup for air gapped devices is covered in [doc/apis.md](doc/apis.md).\n\n- **Self-contained**: weights baked into a single 14MB engine; no separate model files to manage, and inference does no network.\n- **Simple contract**: tool calls come back as structured data, text in, JSON out; a byte-level grammar compiled from your schemas constrains every token.\n- **Confidence-gated**: every response carries a c",
+      "_meta_source": "api"
+    }
+  ]
+}
