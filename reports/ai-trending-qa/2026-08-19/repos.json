@@ -1,0 +1,172 @@
+{
+  "date": "2026-08-19",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "topics": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels",
+        "llm",
+        "python",
+        "short-video",
+        "subtitles",
+        "text-to-speech",
+        "tiktok",
+        "video-automation",
+        "video-workflow",
+        "workflow-automation",
+        "youtube-shorts"
+      ],
+      "stargazers_count": 108628,
+      "forks_count": 16493,
+      "open_issues_count": 30,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# MoneyPrinterTurbo 💸\n\n### 一站式 AI 短视频生成工具\n\n只需提供视频<b>主题</b>或<b>关键词</b>，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。\n\n[![Version](https://img.shields.io/github/v/release/harry0703/MoneyPrinterTurbo?color=blue&label=version)](https://github.com/harry0703/MoneyPrinterTurbo/releases)\n[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/harry0703/MoneyPrinterTurbo/releases/latest)\n[![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)\n[![Downloads](https://img.shields.io/github/downloads/harry0703/MoneyPrinterTurbo/total)](https://github.com/harry0703/MoneyPrinterTurbo/releases/latest)\n\n<a href=\"https://trendshift.io/repositories/8731\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/8731\" alt=\"harry0703%2FMoneyPrinterTurbo | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n<a href=\"https://www.star-history.com/harry0703/moneyprinterturbo\"><img src=\"https://api.star-history.com/badge?repo=harry0703/MoneyPrinterTurbo\" alt=\"Star History Rank\" style=\"height: 55px;\" height=\"55\"/></a>\n\n简体中文 | [English",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "chaitanyagiri/munder-difflin",
+      "html_url": "https://github.com/chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "claude-code",
+        "free",
+        "harness",
+        "harness-engineering",
+        "memory"
+      ],
+      "stargazers_count": 2066,
+      "forks_count": 242,
+      "open_issues_count": 37,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "local multi-agent harness",
+        "What it is",
+        "How it works",
+        "Features",
+        "Getting started",
+        "Architecture"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/logo.png\" alt=\"Munder Difflin — agent harness to run an office of your clones\" width=\"340\">\n\n# Munder Difflin\n\n### Agent harness to run an office of your clones\n\n**Free, open source and performant** — a multi-agent harness that works with the\nsubscriptions you already pay for, on their hourly limits. It turns the terminal coding CLI\nyou already run into a clone of you, one that keeps working while you're away and\ncoordinates a whole office of agents on your own machine.\n\nWraps [Claude Code](https://claude.com/claude-code), Antigravity (Gemini), OpenAI Codex,\n**xAI Grok**, **Kimi Code**, **Qwen**, **OpenCode**, **Crush**, **pi.dev**, and\n**GitHub Copilot CLI** — with bring-your-own keys and local LLMs.\nAgents that message, route, and remember, coordinated by **your clone** (Michael) and\nvisualized as avatars at work on a shared office floor.\n\n<p>\n  <em>Electron · React · TypeScript · Pixi.js · xterm.js · node-pty</em>\n</p>\n\n<p>\n  <a href=\"./LICENSE\"><img alt=\"License: MIT\" src=\"https://img.shields.io/badge/license-MIT-F4D35E.svg?style=flat-square&labelColor=6E1423\"></a>\n  <a href=\"./CHANGELOG.md\"><img alt=\"Version: 0.4.4\" src=\"https://img.shiel",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "akitaonrails/ai-memory",
+      "html_url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 2755,
+      "forks_count": 237,
+      "open_issues_count": 6,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/logo-dark.png\">\n    <img alt=\"ai-memory\" src=\"docs/logo-light.png\" width=\"480\">\n  </picture>\n</p>\n\n> Long-term memory for AI coding agents. Quit Claude Code mid-task,\n> start OpenAI Codex in the same directory, continue without\n> re-explaining the architecture, the failed approaches, or the open\n> questions.\n\n[![Release](https://img.shields.io/github/v/release/akitaonrails/ai-memory)](https://github.com/akitaonrails/ai-memory/releases/latest)\n[![Rust](https://img.shields.io/badge/rust-1.95+-blue)](rust-toolchain.toml)\n[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n## Support Matrix\n\n| Area | Status | Notes |\n|---|---|---|\n| Linux | Supported | Primary Docker/server target and CI platform. Published Docker images support `linux/amd64` and `linux/arm64`. Native Arch/AUR packages include system and user systemd units. |\n| macOS | Supported | Workspace tests run in CI; tagged releases publish native `ai-memory-macos-aarch64.tar.gz` and `ai-memory-macos-x86_64.tar.gz` binaries. The native binary is the recommended path on Apple Silicon. See [`docs/macos.md`](docs/macos.md)",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "volcengine/OpenViking",
+      "html_url": "https://github.com/volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "topics": [
+        "agent-memory",
+        "agent-plugins",
+        "agentic-rag",
+        "context-database",
+        "dsh-plugin",
+        "self-evolving"
+      ],
+      "stargazers_count": 29432,
+      "forks_count": 2309,
+      "open_issues_count": 458,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+        "**One filesystem for all context.** Memories, resources, and skills each get a `viking://` URI. Agents locate and manipulate context deterministically, like a developer working with files. → Viking URI（https://docs.openviking.ai/en/concepts/04-viking-uri） · Context types（https://docs.openviking.ai/en/concepts/02-context-types）",
+        "**Tiered loading cuts token spend.** Every entry is processed into L0 (abstract), L1 (overview), and L2 (details) on write, then loaded only as deep as the task requires. → Context layers（https://docs.openviking.ai/en/concepts/03-context-layers）",
+        "**Directory recursive retrieval.** Vector search first locates the highest-scoring directory, then drills down layer by layer, so results arrive with their surrounding context intact. → Retrieval（https://docs.openviking.ai/en/concepts/07-retrieval）",
+        "**Observable retrieval.** Each query preserves its directory-browsing trajectory. When a result looks wrong, you can see exactly which path produced it. → Retrieval（https://docs.openviking.ai/en/concepts/07-retrieval）",
+        "**Sessions become memory.** After a session commits, OpenViking asynchronously extracts user preferences and agent experience into long-term memory. → Session（https://docs.openviking.ai/en/concepts/08-session）"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<a href=\"https://openviking.ai/\" target=\"_blank\">\n  <picture>\n    <img alt=\"OpenViking\" src=\"docs/images/ov-logo.png\" width=\"200px\" height=\"auto\">\n  </picture>\n</a>\n\n### OpenViking: The Context Database for AI Agents\n\nEnglish / [中文](README_CN.md) / [日本語](README_JA.md)\n\n<a href=\"https://www.openviking.ai\">Website</a> · <a href=\"https://openviking.ai/studio\">Live Demo</a> · <a href=\"https://github.com/volcengine/OpenViking\">GitHub</a> · <a href=\"https://github.com/volcengine/OpenViking/issues\">Issues</a> · <a href=\"https://docs.openviking.ai/\">Docs</a>\n\n[![](https://img.shields.io/github/v/release/volcengine/OpenViking?color=369eff\\&labelColor=black\\&logo=github\\&style=flat-square)](https://github.com/volcengine/OpenViking/releases)\n[![](https://img.shields.io/github/stars/volcengine/OpenViking?labelColor\\&style=flat-square\\&color=ffcb47)](https://github.com/volcengine/OpenViking)\n[![](https://img.shields.io/github/issues/volcengine/OpenViking?labelColor=black\\&style=flat-square\\&color=ff80eb)](https://github.com/volcengine/OpenViking/issues)\n[![](https://img.shields.io/github/contributors/volcengine/OpenViking?color=c4f042\\&labelColor=black\\&style=flat-square)]",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "cloud-security",
+        "cybersecurity",
+        "devsecops",
+        "ethical-hacking",
+        "incident-response",
+        "infosec",
+        "llm",
+        "malware-analysis",
+        "mcp",
+        "mitre-attack",
+        "nist-csf",
+        "osint",
+        "penetration-testing",
+        "red-team",
+        "security",
+        "security-automation",
+        "threat-hunting",
+        "threat-intelligence"
+      ],
+      "stargazers_count": 29231,
+      "forks_count": 3497,
+      "open_issues_count": 47,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"Anthropic Cybersecurity Skills\" width=\"100%\">\n</p>\n\n<div align=\"center\">\n\n#  Anthropic Cybersecurity Skills\n\n### The largest open-source cybersecurity skills library for AI agents\n\n[![GARS-2026 Survey](https://img.shields.io/badge/GARS--2026-Take%20the%20Survey-E8B84B?style=for-the-badge&logo=googleforms&logoColor=black)](https://mahipal.engineer/survey?utm_source=github_badge&utm_medium=readme&utm_campaign=gars2026)\n[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](LICENSE)\n[![Skills](https://img.shields.io/badge/skills-817-brightgreen?style=flat-square)](#whats-inside--29-security-domains)\n[![Frameworks](https://img.shields.io/badge/frameworks-6-orange?style=flat-square)](#six-frameworks-one-skill-library)\n[![MITRE F3](https://img.shields.io/badge/MITRE-F3_v1.1-blue?style=flat-square)](https://ctid.mitre.org/fraud/)\n[![Domains](https://img.shields.io/badge/domains-29-9cf?style=flat-square)](#whats-inside--29-security-domains)\n[![Platforms](https://img.shields.io/badge/platforms-26%2B-blueviolet?style=flat-square)](#compatible-platforms)\n[![GitHub stars](https://img.shields.io/github/star",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "jundot/omlx",
+      "html_url": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "topics": [
+        "apple-silicon",
+        "inference-server",
+        "llm",
+        "macos",
+        "mlx",
+        "openai-api"
+      ],
+      "stargazers_count": 19422,
+      "forks_count": 1672,
+      "open_issues_count": 937,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/images/icon-rounded-dark.svg\" width=\"140\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/images/icon-rounded-light.svg\" width=\"140\">\n    <img alt=\"oMLX\" src=\"docs/images/icon-rounded-light.svg\" width=\"140\">\n  </picture>\n</p>\n\n<h1 align=\"center\">oMLX</h1>\n<p align=\"center\"><b>LLM inference, optimized for your Mac</b><br>Continuous batching and tiered KV caching, managed directly from your menu bar.</p>\n\n<p align=\"center\">\n<a href=\"https://www.buymeacoffee.com/jundot\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"40\"></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/license-Apache%202.0-blue\" alt=\"License\">\n  <img src=\"https://img.shields.io/badge/python-3.11--3.13-green\" alt=\"Python 3.11-3.13\">\n  <img src=\"https://img.shields.io/badge/platform-Apple%20Silicon-black?logo=apple\" alt=\"Apple Silicon\">\n</p>\n\n<p align=\"center\">\n  <a href=\"mailto:junkim.dot@gmail.com\">junkim.dot@gmail.com</a> · <a href=\"https://omlx.ai/me\">https://omlx.ai/me</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#install\">Install</a> ·\n  <",
+      "_meta_source": "api"
+    }
+  ]
+}
