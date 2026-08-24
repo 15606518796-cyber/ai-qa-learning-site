@@ -1,0 +1,157 @@
+{
+  "date": "2026-08-24",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "openai/codex",
+      "html_url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 115338,
+      "forks_count": 17586,
+      "open_issues_count": 13574,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Lightweight coding agent that runs in your terminal",
+        "Apple Silicon/arm64: `codex-aarch64-apple-darwin.tar.gz`",
+        "x86_64 (older Mac hardware): `codex-x86_64-apple-darwin.tar.gz`",
+        "x86_64: `codex-x86_64-unknown-linux-musl.tar.gz`",
+        "arm64: `codex-aarch64-unknown-linux-musl.tar.gz`"
+      ],
+      "readme_excerpt": "<p align=\"center\"><strong>Codex CLI</strong> is a coding agent from OpenAI that runs locally on your computer.\n<p align=\"center\">\n  <img src=\"https://github.com/openai/codex/blob/main/.github/codex-cli-splash.png\" alt=\"Codex CLI splash\" width=\"80%\" />\n</p>\n</br>\nIf you want Codex in your code editor (VS Code, Cursor, Windsurf), <a href=\"https://developers.openai.com/codex/ide\">install in your IDE.</a>\n</br>If you want the desktop app experience, run <code>codex app</code> or visit <a href=\"https://chatgpt.com/codex?app-landing-page=true\">the Codex App page</a>.\n</br>If you are looking for the <em>cloud-based agent</em> from OpenAI, <strong>Codex Web</strong>, go to <a href=\"https://chatgpt.com/codex\">chatgpt.com/codex</a>.</p>\n\n---\n\n## Quickstart\n\n### Installing and running Codex CLI\n\nRun the following on Mac or Linux to install Codex CLI:\n\n```shell\ncurl -fsSL https://chatgpt.com/codex/install.sh | sh\n```\n\nRun the following on Windows to install Codex CLI:\n\n```shell\npowershell -ExecutionPolicy ByPass -c \"irm https://chatgpt.com/codex/install.ps1 | iex\"\n```\n\nThe standalone installers download from `https://releases.openai.com/codex` by default and fall back to GitHub Releases if a m",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "html_url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "language": "JavaScript",
+      "topics": [
+        "agents",
+        "ai-image-generation",
+        "chatgpt",
+        "dsh-plugin",
+        "gpt-image-2",
+        "image-prompts",
+        "prompt-as-code",
+        "prompt-engineering",
+        "skills",
+        "workflow-automation"
+      ],
+      "stargazers_count": 12840,
+      "forks_count": 1436,
+      "open_issues_count": 11,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中"
+      ],
+      "readme_excerpt": "<p align=\"center\"><img src=\"./data/images/banner.svg\" alt=\"GPT-Image2 Prompt System\" width=\"800\" /></p>\n\n<h3 align=\"center\">Prompt as Code | GPT-Image2 Industrial Prompt Engine & Template Library, 500+ Reverse-Engineered Cases, 20+ Industrial Templates</h3>\n\n<p align=\"center\">\n  <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/github/stars/freestylefly/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)\" alt=\"Stars\"></a>\n  <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/github/forks/freestylefly/awesome-gpt-image-2?style=flat-square&color=green\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/badge/Cases-532-blueviolet?style=flat-square\" alt=\"Cases\"></a>\n  <a href=\"https://github.com/freestylefly/awesome-gpt-image-2\"><img src=\"https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square\" alt=\"Original\"></a>\n  <a href=\"https://github.com/sponsors/freestylefly\"><img src=\"https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ff69b4?style=flat-square\" alt=\"Sponsor\"></a>\n</p>\n\n<p align=\"cent",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 233927,
+      "forks_count": 19949,
+      "open_issues_count": 389,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Skills for Real Engineers. Straight from my .agents directory.",
+        "Ask you which issue tracker you want to use (GitHub, Linear, or local files)",
+        "Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)",
+        "Ask you where you want to save any docs we create",
+        "`/grill-me` - for non-code uses",
+        "`/grill-with-docs` - same as `/grill-me`, but adds more goodies (see below)"
+      ],
+      "readme_excerpt": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\nMy agent skills that I use every day to do real engineering - not vibe coding.\n\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\n\nIf you want to keep up with changes to these ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "apache/maka",
+      "html_url": "https://github.com/apache/maka",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-runtime",
+        "ai",
+        "ai-agent",
+        "apache",
+        "cli",
+        "desktop",
+        "electron",
+        "event-sourcing",
+        "incubator",
+        "llm",
+        "local-first",
+        "maka",
+        "tool-use",
+        "typescript"
+      ],
+      "stargazers_count": 2369,
+      "forks_count": 270,
+      "open_issues_count": 234,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+        "**Your machine, your data.** Sessions, settings, and run records stay local by default. You bring the model: a cloud API, a local model, or a compatible gateway.",
+        "**The record is kept.** Model messages, tool calls, tool results, and how a turn ended are written down. The UI and the next model call are views of that record, not the only copy.",
+        "**Shorter context is not deleted history.** Maka can omit old tool output from the next prompt without throwing away the saved evidence.",
+        "**One place runs the agent.** Desktop, the terminal, and Maka evaluation all go through Runtime Host. Eval only owns the experiment and its scores.",
+        "Multiple model connections, streaming output, thinking, usage, and clearer provider errors;"
+      ],
+      "readme_excerpt": "<!--\n  Licensed to the Apache Software Foundation (ASF) under one\n  or more contributor license agreements.  See the NOTICE file\n  distributed with this work for additional information\n  regarding copyright ownership.  The ASF licenses this file\n  to you under the Apache License, Version 2.0 (the\n  \"License\"); you may not use this file except in compliance\n  with the License.  You may obtain a copy of the License at\n\n      http://www.apache.org/licenses/LICENSE-2.0\n\n  Unless required by applicable law or agreed to in writing,\n  software distributed under the License is distributed on an\n  \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n  KIND, either express or implied.  See the License for the\n  specific language governing permissions and limitations\n  under the License.\n-->\n\n<h1 align=\"center\">\n  <img src=\"apps/desktop/assets/app-icons/sky.png\" alt=\"Maka\" width=\"72\" valign=\"middle\" /> Apache Maka (Incubating)\n</h1>\n\n<p align=\"center\"><sub>Incubating at The Apache Software Foundation</sub></p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/apache/maka/stargazers\"><img src=\"https://img.shields.io/github/stars/apache/maka?style=flat&label=%E2%98%85&color=4C8DFF\" alt=\"GitHu",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "html_url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 36784,
+      "forks_count": 3673,
+      "open_issues_count": 269,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+        "**Memory Tree（https://tinyhumans.gitbook.io/openhuman/features/memory-tree） + Obsidian Wiki（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki）**: your data compressed into scored Markdown trees in SQLite on your machine, mirrored as an Obsidian vault（https://x.com/karpathy/status/2039805659525644595） you can open and edit. No vector-soup black box.",
+        "**100+ OAuth integrations, 5,000+ MCP servers, 90,000+ Skills（https://tinyhumans.gitbook.io/openhuman/features/integrations）**: one click into Gmail, Notion, GitHub, Slack and the rest of your stack. Auto-fetch（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki/auto-fetch） feeds the brain every 20 minutes, so it has tomorrow's context this morning.",
+        "**Goals & Todos（https://tinyhumans.gitbook.io/openhuman/features/goals-and-todos）**: long-term goals, durable per-thread goals, and a shared kan"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">OpenHuman</h1>\n\n<p align=\"center\">\n <img src=\"./gitbooks/.gitbook/assets/demo.png\" alt=\"The Tet\" />\n</p>\n\n<p align=\"center\" style=\"display: inline-block\">\n\t<a href=\"https://trendshift.io/repositories/23680\" target=\"_blank\" style=\"display: inline-block\">\n\t\t<img src=\"https://trendshift.io/api/badge/repositories/23680\" alt=\"tinyhumansai%2Fopenhuman | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n\t</a>\n\t<a href=\"https://www.producthunt.com/products/openhuman?embed=true&amp;utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_campaign=badge-openhuman\" target=\"_blank\" rel=\"noopener noreferrer\">\n\t\t<img alt=\"OpenHuman - An open source AI harness built with the human in mind | Product Hunt\" width=\"250\" height=\"54\" src=\"https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1136902&amp;theme=light&amp;period=daily&amp;t=1778916022823\">\n\t\t</a>\n\t\t<a href=\"https://www.producthunt.com/products/openhuman?embed=true&amp;utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_campaign=badge-openhuman\" target=\"_blank\" rel=\"noopener noreferrer\">\n\t\t\t<img alt=\"OpenHuman - An open source AI harness built with the human in",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stargazers_count": 242579,
+      "forks_count": 36722,
+      "open_issues_count": 149,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/hero.png\" alt=\"ECC - the agent harness operating system\" width=\"100%\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.star-history.com/affaan-m/ecc\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=trending&theme=dark\" />\n      <img src=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=trending\" alt=\"GitHub Trending Repository of the Day\" height=\"46\" />\n    </picture>\n  </a>\n  <a href=\"https://www.star-history.com/affaan-m/ecc\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=rank&theme=dark\" />\n      <img src=\"https://api.star-history.com/badge?repo=affaan-m/ECC&type=rank\" alt=\"Star History Global Rank\" height=\"46\" />\n    </picture>\n  </a>\n</p>\n\n<p align=\"center\">\n  <strong>Language:</strong>\n  <a href=\"README.md\">English</a> |\n  <a href=\"docs/pt-BR/README.md\">Português (Brasil)</a> |\n  <a href=\"README.zh-CN.md\">简体中文</a> |\n  <a href=\"docs/zh-TW/README.md\">繁體中文</a> |\n  <a href=\"docs/ja-JP/README.md\">日本語</a> |\n  <a href=\"docs/ko-KR/README.md\">한국어</a> |\n  <a href=\"docs/tr",
+      "_meta_source": "api"
+    }
+  ]
+}
