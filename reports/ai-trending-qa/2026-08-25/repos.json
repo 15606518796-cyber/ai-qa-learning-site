@@ -1,0 +1,187 @@
+{
+  "date": "2026-08-25",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "openai/codex",
+      "html_url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 117114,
+      "forks_count": 17857,
+      "open_issues_count": 13695,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Lightweight coding agent that runs in your terminal",
+        "Apple Silicon/arm64: `codex-aarch64-apple-darwin.tar.gz`",
+        "x86_64 (older Mac hardware): `codex-x86_64-apple-darwin.tar.gz`",
+        "x86_64: `codex-x86_64-unknown-linux-musl.tar.gz`",
+        "arm64: `codex-aarch64-unknown-linux-musl.tar.gz`"
+      ],
+      "readme_excerpt": "<p align=\"center\"><strong>Codex CLI</strong> is a coding agent from OpenAI that runs locally on your computer.\n<p align=\"center\">\n  <img src=\"https://github.com/openai/codex/blob/main/.github/codex-cli-splash.png\" alt=\"Codex CLI splash\" width=\"80%\" />\n</p>\n</br>\nIf you want Codex in your code editor (VS Code, Cursor, Windsurf), <a href=\"https://developers.openai.com/codex/ide\">install in your IDE.</a>\n</br>If you want the desktop app experience, run <code>codex app</code> or visit <a href=\"https://chatgpt.com/codex?app-landing-page=true\">the Codex App page</a>.\n</br>If you are looking for the <em>cloud-based agent</em> from OpenAI, <strong>Codex Web</strong>, go to <a href=\"https://chatgpt.com/codex\">chatgpt.com/codex</a>.</p>\n\n---\n\n## Quickstart\n\n### Installing and running Codex CLI\n\nRun the following on Mac or Linux to install Codex CLI:\n\n```shell\ncurl -fsSL https://chatgpt.com/codex/install.sh | sh\n```\n\nRun the following on Windows to install Codex CLI:\n\n```shell\npowershell -ExecutionPolicy ByPass -c \"irm https://chatgpt.com/codex/install.ps1 | iex\"\n```\n\nThe standalone installers download from `https://releases.openai.com/codex` by default and fall back to GitHub Releases if a m",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "MadsLorentzen/ai-job-search",
+      "html_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "career",
+        "claude-code",
+        "cover-letter",
+        "cv",
+        "interview-preparation",
+        "job-application",
+        "job-hunting",
+        "job-search",
+        "latex",
+        "resume"
+      ],
+      "stargazers_count": 34116,
+      "forks_count": 11907,
+      "open_issues_count": 6,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+        "Claude Code（https://claude.com/claude-code） (CLI). Using a different agent tool (Codex, Antigravity, Gemini CLI)? Start at `AGENTS.md` - the portal search skills work there out of the box, and community forks（https://github.com/MadsLorentzen/ai-job-search/discussions/78） adapt the full workflow.",
+        "Python 3.10+",
+        "Bun（https://bun.sh） (for job search CLI tools)",
+        "LaTeX distribution with `lualatex` and `xelatex`: TeX Live（https://tug.org/texlive/）, MacTeX（https://tug.org/mactex/）, TinyTeX（https://yihui.org/tinytex/）, or MiKTeX（https://miktex.org/）. The CV compiles with `lualatex` (pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors); the cover letter compiles with `xelatex` because `cover.cls` requires `fontspec`. If using a minimal TeX install such as TinyTeX or BasicTeX, install the extra packages listed in SETUP.md.",
+        "Optional: `pdftotext` from poppler（https://poppler.freedesktop.org/） (macOS: `brew install poppler`, Debian/Ubuntu: `apt install poppler-utils`, Windows: `choco install poppler`) — used by `/apply`'s ATS parseability check on the compiled CV. If missing, the check degrades gracefully to a visual keyword review."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/mascot/pip_flight_loop.gif\" alt=\"Pip, the courier bird\" width=\"200\">\n</p>\n\n# AI Job Search\n\n*The job search that runs on your machine.*\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/43622?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-43622\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/trendshift/repositories/43622/daily\" alt=\"MadsLorentzen%2Fai-job-search | Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n\n[![CI](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml/badge.svg)](https://github.com/MadsLorentzen/ai-job-search/actions/workflows/ci.yml)\n\nAn AI-powered job application framework built on [Claude Code](https://claude.com/claude-code). Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews.\n\n> Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses.\n>\n> This project has **no affili",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 206553,
+      "forks_count": 21089,
+      "open_issues_count": 129,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "**State assumptions explicitly** — If uncertain, ask rather than guess",
+        "**Present multiple interpretations** — Don't pick silently when ambiguity exists",
+        "**Push back when warranted** — If a simpler approach exists, say so",
+        "**Stop when confused** — Name what's unclear and ask for clarification",
+        "No features beyond what was asked"
+      ],
+      "readme_excerpt": "# Karpathy-Inspired Claude Code Guidelines\n\n> Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills.\n>\n> Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)\n\nA single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.\n\nEnglish | [简体中文](./README.zh.md)\n\n## The Problems\n\nFrom Andrej's post:\n\n> \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\"\n\n> \"They really like to overcomplicate code and APIs, bloat abstractions, don't clean up dead code... implement a bloated construction over 1000 lines when 100 would do.\"\n\n> \"They still sometimes change/remove comments and code they don't sufficiently understand as side effects, even if orthogonal to the task.\"\n\n## The Solution\n\nFour principles in one file that directly address these issues:\n\n| Principle | Addr",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "html_url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ],
+      "stargazers_count": 235837,
+      "forks_count": 47583,
+      "open_issues_count": 35469,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent that grows with you"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"Hermes Agent\" width=\"100%\">\n</p>\n\n# Hermes Agent ☤\n<p align=\"center\">\n  <a href=\"https://hermes-agent.nousresearch.com/\">Hermes Agent</a> | <a href=\"https://hermes-agent.nousresearch.com/\">Hermes Desktop</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://hermes-agent.nousresearch.com/docs/\"><img src=\"https://img.shields.io/badge/Docs-hermes--agent.nousresearch.com-FFD700?style=for-the-badge\" alt=\"Documentation\"></a>\n  <a href=\"https://discord.gg/NousResearch\"><img src=\"https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white\" alt=\"Discord\"></a>\n  <a href=\"https://github.com/NousResearch/hermes-agent/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-green?style=for-the-badge\" alt=\"License: MIT\"></a>\n  <a href=\"https://nousresearch.com\"><img src=\"https://img.shields.io/badge/Built%20by-Nous%20Research-blueviolet?style=for-the-badge\" alt=\"Built by Nous Research\"></a>\n  <a href=\"README.zh-CN.md\"><img src=\"https://img.shields.io/badge/Lang-中文-red?style=for-the-badge\" alt=\"中文\"></a>\n  <a href=\"README.ur-pk.md\"><img src=\"https://img.shields.io/badge/Lang-اردو-green?style=for-the-badge",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "apache/maka",
+      "html_url": "https://github.com/apache/maka",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-runtime",
+        "ai",
+        "ai-agent",
+        "apache",
+        "cli",
+        "desktop",
+        "electron",
+        "event-sourcing",
+        "incubator",
+        "llm",
+        "local-first",
+        "maka",
+        "tool-use",
+        "typescript"
+      ],
+      "stargazers_count": 2928,
+      "forks_count": 307,
+      "open_issues_count": 250,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+        "**Your machine, your data.** Sessions, settings, and run records stay local by default. You bring the model: a cloud API, a local model, or a compatible gateway.",
+        "**The record is kept.** Model messages, tool calls, tool results, and how a turn ended are written down. The UI and the next model call are views of that record, not the only copy.",
+        "**Shorter context is not deleted history.** Maka can omit old tool output from the next prompt without throwing away the saved evidence.",
+        "**One place runs the agent.** Desktop, the terminal, and Maka evaluation all go through Runtime Host. Eval only owns the experiment and its scores.",
+        "Multiple model connections, streaming output, thinking, usage, and clearer provider errors;"
+      ],
+      "readme_excerpt": "<!--\n  Licensed to the Apache Software Foundation (ASF) under one\n  or more contributor license agreements.  See the NOTICE file\n  distributed with this work for additional information\n  regarding copyright ownership.  The ASF licenses this file\n  to you under the Apache License, Version 2.0 (the\n  \"License\"); you may not use this file except in compliance\n  with the License.  You may obtain a copy of the License at\n\n      http://www.apache.org/licenses/LICENSE-2.0\n\n  Unless required by applicable law or agreed to in writing,\n  software distributed under the License is distributed on an\n  \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n  KIND, either express or implied.  See the License for the\n  specific language governing permissions and limitations\n  under the License.\n-->\n\n<h1 align=\"center\">\n  <img src=\"apps/desktop/assets/app-icons/sky.png\" alt=\"Maka\" width=\"72\" valign=\"middle\" /> Apache Maka (Incubating)\n</h1>\n\n<p align=\"center\"><sub>Incubating at The Apache Software Foundation</sub></p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/apache/maka/stargazers\"><img src=\"https://img.shields.io/github/stars/apache/maka?style=flat&label=%E2%98%85&color=4C8DFF\" alt=\"GitHu",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "html_url": "https://github.com/PostHog/posthog",
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "topics": [
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay",
+        "surveys",
+        "typescript",
+        "web-analytics"
+      ],
+      "stargazers_count": 39008,
+      "forks_count": 3275,
+      "open_issues_count": 5144,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+        "Self-driving mode（https://posthog.com/docs/self-driving）: Turn signals in your product data (errors, rage clicks, failed queries, and more) into researched reports and pull requests you review and merge.",
+        "Product analytics（https://posthog.com/product-analytics）: Autocapture or manually instrument event-based analytics to understand user behavior and analyze data with visualization or SQL.",
+        "Web analytics（https://posthog.com/web-analytics）: Monitor web traffic and user sessions with a GA-like dashboard. Easily monitor conversion, web vitals, and revenue.",
+        "Session replays（https://posthog.com/session-replay）: Watch real user sessions of interactions with your website or mobile app to diagnose issues and understand user behavior.",
+        "Feature flags（https://posthog.com/feature-flags）: Safely roll out features to select users or cohorts with feature flags."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/205059737-c8a4f836-4889-4654-902e-f302b187b6a0.png\">\n</p>\n<p align=\"center\">\n  <a href='https://posthog.com/contributors'><img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/posthog/posthog\"/></a>\n  <a href='http://makeapullrequest.com'><img alt='PRs Welcome' src='https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields'/></a>\n  <img alt=\"Docker Pulls\" src=\"https://img.shields.io/docker/pulls/posthog/posthog\"/>\n  <a href=\"https://github.com/PostHog/posthog/commits/master\"><img alt=\"GitHub commit activity\" src=\"https://img.shields.io/github/commit-activity/m/posthog/posthog\"/> </a>\n  <a href=\"https://github.com/PostHog/posthog/issues?q=is%3Aissue%20state%3Aclosed\"><img alt=\"GitHub closed issues\" src=\"https://img.shields.io/github/issues-closed/posthog/posthog\"/> </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://posthog.com/docs\">Docs</a> - <a href=\"https://posthog.com/community\">Community</a> - <a href=\"https://posthog.com/roadmap\">Roadmap</a> - <a href=\"https://posthog.com/why\">Why PostHog?</a> - <a href=\"https://posthog.com/changelog\">Changelo",
+      "_meta_source": "api"
+    }
+  ]
+}
