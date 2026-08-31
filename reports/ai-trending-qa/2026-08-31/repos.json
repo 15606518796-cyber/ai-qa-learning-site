@@ -1,0 +1,187 @@
+{
+  "date": "2026-08-31",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "THU-MAIC/OpenMAIC",
+      "html_url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 24722,
+      "forks_count": 4534,
+      "open_issues_count": 219,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+        "🤖 **Agent workbench** — a chat-first workspace that plans, builds, and revises whole courses",
+        "💾 **Durable sessions** — server-backed runs survive restarts; cancel, resume, and steer anytime",
+        "📎 **Session materials** — upload documents, audio, and video, or pull from web search; the agent builds from them",
+        "🧰 **Course tools + 20 built-in skills** — slides, quizzes, interactives, PBL, images, video, voices, `.pptx` import",
+        "🔌 **Neutral by design** — bring your own models, media, search providers, and storage backend"
+      ],
+      "readme_excerpt": "<!-- <p align=\"center\">\n  <img src=\"assets/logo-horizontal.png\" alt=\"OpenMAIC\" width=\"420\"/>\n</p> -->\n\n<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"OpenMAIC Banner\" width=\"680\"/>\n</p>\n\n<p align=\"center\">\n  Get an immersive, multi-agent learning experience in just one click\n</p>\n\n<p align=\"center\">\n  <a href=\"https://my.feishu.cn/wiki/UIfKw9Knti0LcKkTxDNcqlUrnzh\"><img src=\"https://img.shields.io/badge/%F0%9F%93%98%20User%20Guide-v1.0.0%20%C2%B7%20English-4F8EF7?style=for-the-badge\" alt=\"v1.0.0 User Guide (English)\"/></a>\n  &nbsp;&nbsp;\n  <a href=\"https://lcn6dqn3m0yr.feishu.cn/wiki/CkQSwHFdzibQFvkGzwPcmUOfnXg\"><img src=\"https://img.shields.io/badge/%F0%9F%93%99%20%E4%BD%93%E9%AA%8C%E6%8C%87%E5%8D%97-v1.0.0%20%C2%B7%20%E4%B8%AD%E6%96%87-FF6B35?style=for-the-badge\" alt=\"v1.0.0 体验指南（中文）\"/></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://jcst.ict.ac.cn/en/article/doi/10.1007/s11390-025-6000-0\"><img src=\"https://img.shields.io/badge/Paper-JCST'26-blue?style=flat-square\" alt=\"Paper\"/></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-green.svg?style=flat-square\" alt=\"License: MIT\"/></a>\n  <a href=\"https://open.maic.chat/\"><img src=\"https://img.shields.io",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-scientist",
+        "bioinformatics",
+        "chemoinformatics",
+        "claude",
+        "claude-skills",
+        "claudecode",
+        "clinical-research",
+        "computational-biology",
+        "data-analysis",
+        "drug-discovery",
+        "genomics",
+        "materials-science",
+        "metabolomics",
+        "proteomics",
+        "scientific-computing",
+        "scientific-visualization"
+      ],
+      "stargazers_count": 39658,
+      "forks_count": 3688,
+      "open_issues_count": 22,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+        "🧬 Bioinformatics & Genomics - Sequence analysis, single-cell RNA-seq, gene regulatory networks, variant annotation, phylogenetic analysis",
+        "🧪 Cheminformatics & Drug Discovery - Molecular property prediction, virtual screening, ADMET analysis, molecular docking, lead optimization",
+        "🔬 Proteomics & Mass Spectrometry - LC-MS/MS processing, peptide identification, spectral matching, protein quantification",
+        "🏥 Clinical Research & Evidence Workflows - Clinical trials, pharmacogenomics, variant evidence review, pharmacokinetic/pharmacodynamic modelling and dose-regimen evaluation, aggregate"
+      ],
+      "readme_excerpt": "# Scientific Agent Skills\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)\n[![Version](https://img.shields.io/badge/Version-2.65.0-blue.svg)](pyproject.toml)\n[![Skills](https://img.shields.io/badge/Skills-163-brightgreen.svg)](#-whats-included)\n[![Databases](https://img.shields.io/badge/Databases-100%2B-orange.svg)](#-whats-included)\n[![Agent Skills](https://img.shields.io/badge/Standard-Agent_Skills-blueviolet.svg)](https://agentskills.io/)\n[![Agent Plugins](https://img.shields.io/badge/Standard-Agent_Plugins-0A7A72.svg)](https://agent-plugins.org/)\n[![Security Scan](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/security-scan.yml/badge.svg)](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/security-scan.yml)\n[![Skill Tests](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/skill-tests.yml/badge.svg)](https://github.com/K-Dense-AI/scientific-agent-skills/actions/workflows/skill-tests.yml)\n[![Works with](https://img.shields.io/badge/Works_with-Cursor_|_Claude_Code_|_Codex_|_Google_Antigravity-blue.svg)](#-getting-started)\n[![X](https://img.shields.io/badge/Follow_on_X-%40k__dens",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tt-a1i/archify",
+      "html_url": "https://github.com/tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "architecture-as-code",
+        "architecture-diagram",
+        "claude-skill",
+        "code-visualization",
+        "codex",
+        "coding-agents",
+        "data-flow-diagram",
+        "deepseek-harness",
+        "developer-tools",
+        "diagram-as-code",
+        "diagrams",
+        "diagrams-as-code",
+        "dsh-plugin",
+        "mermaid-alternative",
+        "opencode",
+        "sequence-diagram",
+        "software-architecture",
+        "system-design",
+        "text-to-diagram"
+      ],
+      "stargazers_count": 35585,
+      "forks_count": 2280,
+      "open_issues_count": 78,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "**Open it and present** — five diagram types, four presets, dark/light themes, built-in brand marks, and finite motion",
+        "**Review architecture changes before merge** — compare two validated snapshots as Before / Delta / After, with exact added, removed, changed, moved, and rerouted facts",
+        "**Every interaction stays grounded** — search nodes, optionally open revision-verified source, trace upstream/downstream authored reach and exact routes, compare roles, and play guided stories without inventing topology",
+        "**One file, ready to trust and share** — typed JSON IR and deterministic checks produce self-contained HTML plus PNG, SVG, WebM, and 1200×630 share cards"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <strong>English</strong> · <a href=\"./README_ZH.md\">简体中文</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/31352?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-31352\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/31352\" alt=\"Archify on Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n\n![Archify product preview](docs/assets/archify-readme-hero.png)\n\n# Archify\n\n**Turn a codebase or system description into a polished, interactive system map — directly in chat.**\n\nArchify is a Node.js rendering and validation system for Cursor, Claude Code, Codex CLI, and OpenCode. Agents produce typed JSON IR; Archify deterministically compiles it into HTML/SVG.\n\n- **Open it and present** — five diagram types, four presets, dark/light themes, built-in brand marks, and finite motion\n- **Review architecture changes before merge** — compare two validated snapshots as Before / Delta / After, with exact added, removed, changed, moved, and rerouted facts\n- **Every interaction stays grounded** — search nodes, optionally open revision-verified source, trace upstream/downstream aut",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "p-e-w/heretic",
+      "html_url": "https://github.com/p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "topics": [
+        "abliteration",
+        "llm",
+        "transformer"
+      ],
+      "stargazers_count": 29278,
+      "forks_count": 3211,
+      "open_issues_count": 81,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Fully automatic censorship removal for language models"
+      ],
+      "readme_excerpt": "<img width=\"128\" align=\"right\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/df5f2840-2f92-4991-aa57-252747d7182e\" />\n\n# Heretic: Fully automatic censorship removal for language models<br><br>[![Discord](https://img.shields.io/discord/1447831134212984903?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/gdXc48gSyT) [![Matrix](https://img.shields.io/badge/Matrix-black?logo=matrix&style=for-the-badge)](https://matrix.to/#/#heretic:matrix.org) [![Follow us on Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/follow-us-on-hf-md-dark.svg)](https://huggingface.co/heretic-org) [![Codeberg mirror](https://img.shields.io/badge/Codeberg%20mirror-black?logo=codeberg&style=for-the-badge)](https://codeberg.org/p-e-w/heretic)\n\n[![#1 Repository of the Day](https://trendshift.io/api/badge/repositories/20538)](https://trendshift.io/repositories/20538)\n\nHeretic is a tool that removes censorship (aka \"safety alignment\") from\ntransformer-based language models without expensive post-training.\nIt combines an advanced implementation of directional ablation, also known\nas \"abliteration\" ([Arditi et al.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "unclecode/crawl4ai",
+      "html_url": "https://github.com/unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 80366,
+      "forks_count": 8316,
+      "open_issues_count": 178,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+        "**LLM ready output**, smart Markdown with headings, tables, code, citation hints",
+        "**Fast in practice**, async browser pool, caching, minimal hops",
+        "**Full control**, sessions, proxies, cookies, user scripts, hooks",
+        "**Adaptive intelligence**, learns site patterns, explores only what matters",
+        "**Deploy anywhere**, zero keys, CLI and Docker, cloud friendly"
+      ],
+      "readme_excerpt": "# 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper.\n\n<div align=\"center\">\n\n<a href=\"https://trendshift.io/repositories/11716\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/11716\" alt=\"unclecode%2Fcrawl4ai | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n[![GitHub Stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai/stargazers)\n[![GitHub Forks](https://img.shields.io/github/forks/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai/network/members)\n\n[![PyPI version](https://badge.fury.io/py/crawl4ai.svg)](https://badge.fury.io/py/crawl4ai)\n[![Python Version](https://img.shields.io/pypi/pyversions/crawl4ai)](https://pypi.org/project/crawl4ai/)\n[![Downloads](https://static.pepy.tech/badge/crawl4ai/month)](https://pepy.tech/project/crawl4ai)\n[![GitHub Sponsors](https://img.shields.io/github/sponsors/unclecode?style=flat&logo=GitHub-Sponsors&label=Sponsors&color=pink)](https://github.com/sponsors/unclecode)\n\n---\n#### 🚀 Crawl4AI Cloud API — Closed Beta (Launching Soon)\nReliable, large-scale web extraction, now built to be _**drastically more",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 60612,
+      "forks_count": 5302,
+      "open_issues_count": 183,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\nEnglish | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)\n\n<p align=\"center\">\n  <img src=\"media/pr-assets/last30days-ad.gif\" width=\"720\" alt=\"last30days - an AI agent-led search engine that searches people, not editors\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**C",
+      "_meta_source": "api"
+    }
+  ]
+}
