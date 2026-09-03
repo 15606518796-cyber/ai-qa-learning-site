@@ -1,0 +1,191 @@
+{
+  "date": "2026-09-03",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "google-research/timesfm",
+      "html_url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 30038,
+      "forks_count": 2880,
+      "open_issues_count": 235,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "<span style=\"color:red\">(NEW!)</span> TimesFM 3.0 Checkpoint:",
+        "Checkpoints (up to 2.5):",
+        "Google Research blog（https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/）",
+        "TimesFM in Google 1P Products:",
+        "BigQuery ML（https://cloud.google.com/bigquery/docs/timesfm-model）:"
+      ],
+      "readme_excerpt": "# TimesFM\n\nTimesFM (Time Series Foundation Model) is a pretrained time-series foundation\nmodel developed by Google Research for time-series forecasting.\n\n*   Paper:\n    [A decoder-only foundation model for time-series forecasting](https://arxiv.org/abs/2310.10688),\n    ICML 2024.\n*   <span style=\"color:red\">(NEW!)</span> TimesFM 3.0 Checkpoint:\n    [`google/timesfm-3.0-pytorch`](https://huggingface.co/google/timesfm-3.0-pytorch).\n*   Checkpoints (up to 2.5):\n    [TimesFM Hugging Face Collection](https://huggingface.co/collections/google/timesfm-release-66e4be5fdb56e960c1e482a6).\n*   [Google Research blog](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/)\n    (New blog post for TimesFM 3.0 coming soon!).\n*   TimesFM in Google 1P Products:\n    *   [BigQuery ML](https://cloud.google.com/bigquery/docs/timesfm-model):\n        Enterprise level SQL queries for scalability and reliability.\n    *   [Google Sheets](https://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html):\n        For your daily spreadsheet.\n    *   [Vertex Model Garden](https://pantheon.corp.google.com/vertex-ai/publishers/google/model",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "html_url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "stargazers_count": 121960,
+      "forks_count": 6589,
+      "open_issues_count": 202,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "Does this need to exist? → n"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/logo-dark.png\">\n    <img src=\"assets/logo.png\" width=\"220\" alt=\"Ponytail, the lazy senior dev\">\n  </picture>\n</p>\n\n<h1 align=\"center\">Ponytail</h1>\n\n<p align=\"center\">\n  <em>He says nothing. He writes one line. It works.</em>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&color=111111&label=stars\" alt=\"Stars\">\n  <img src=\"https://img.shields.io/github/v/release/DietrichGebert/ponytail?style=flat-square&color=111111&label=release\" alt=\"Release\">\n  <img src=\"https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm\" alt=\"npm\">\n  <img src=\"https://img.shields.io/badge/works%20with-20%20agents-111111?style=flat-square\" alt=\"Works with 20 agents\">\n  <img src=\"https://img.shields.io/badge/license-MIT-111111?style=flat-square\" alt=\"MIT license\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/50668\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/trendshift/repositories/50668/daily\" alt=\"DietrichGebert/ponytail | Trendshift\" width=\"25",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "html_url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "tauri",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "stargazers_count": 15050,
+      "forks_count": 2130,
+      "open_issues_count": 11,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "Launch VoiceStudio and open **Voice Cloning**.",
+        "Add a clean voice sample. Three seconds works; 5 to 15 seconds usually gives a better prompt.",
+        "Enter text, choose a language, then select **Generate**.",
+        "Run **Settings → About → Run self-check** or `uv run python backend/main.py --diagnose --deep`.",
+        "Check install troubleshooting."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/28176\" alt=\"VoiceStudio ranking on Trendshift\" width=\"250\" height=\"55\" /></a>\n\n  <img src=\"docs/logo.png\" alt=\"VoiceStudio logo\" width=\"120\" height=\"120\" />\n  <h1>VoiceStudio</h1>\n  <p><sub>Previously OmniVoice-Studio</sub></p>\n  <h3>Clone voices, dub video, dictate, and produce long-form audio on your own hardware.</h3>\n  <p>16 TTS engines · 11 ASR engines · 646-language catalogue · macOS, Windows, Linux, and Docker</p>\n  <p>No account, API key, subscription, or usage meter for the local workflow.</p>\n\n  <p>\n    <a href=\"#install\">Install</a> ·\n    <a href=\"#features\">Features</a> ·\n    <a href=\"#comparison\">Compare</a> ·\n    <a href=\"#requirements\">Requirements</a> ·\n    <a href=\"#engines\">Engines</a> ·\n    <a href=\"#architecture\">Architecture</a> ·\n    <a href=\"#api\">API</a> ·\n    <a href=\"#documentation\">Docs</a> ·\n    <a href=\"README_CN.md\"><strong>简体中文</strong></a>\n  </p>\n\n  <p>\n    <a href=\"https://github.com/debpalash/",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "sngyai/Sequoia-X",
+      "html_url": "https://github.com/sngyai/Sequoia-X",
+      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+      "language": "Python",
+      "topics": [
+        "a-shares",
+        "akshare",
+        "baostock",
+        "pandas",
+        "python",
+        "stock-screening",
+        "ta-lib",
+        "trading",
+        "turtle-trade"
+      ],
+      "stargazers_count": 6231,
+      "forks_count": 1275,
+      "open_issues_count": 24,
+      "arch_category": "训练 / 数据",
+      "features": [
+        "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+        "Python >= 3.10",
+        "**数据源**：baostock（http://baostock.com）（免费、无需注册、无限流）",
+        "**复权方式**：后复权（hfq）— 历史价格不变，适合增量存储，避免除权导致数据错乱",
+        "**存储**：本地 SQLite（`data/sequoia_v2.db`），可直接拷贝到其他机器使用",
+        "**日常增量**：8 进程并行通过 baostock 拉取，2~3 分钟完成全市场更新"
+      ],
+      "readme_excerpt": "# Sequoia-X: 王者回归 | The King Returns\n\n> A 股量化选股系统 V2 | A-Share Quantitative Stock Selection System V2\n\n---\n\n## 简介 | Introduction\n\nSequoia-X V2 是面向 A 股市场的量化选股系统，基于现代 Python 工程化标准从零重构。\n系统以 OOP 架构、向量化计算和增量数据更新为核心设计原则，每日收盘后自动选股并推送至飞书群。\n\n数据层使用 [baostock](http://baostock.com)（免费、无需注册、无限流）拉取历史及增量日 K 数据（后复权），\n存储于本地 SQLite，彻底规避东方财富反爬问题。\n\n---\n\n## 两种运行模式\n\n```bash\npython main.py               # 日常模式：8进程增量补数据 + 跑策略 + 飞书推送（2~3分钟）\npython main.py --backfill     # 回填模式：全市场历史K线一次性灌入（约12分钟）\n```\n\n---\n\n## 内置策略 | Strategies\n\n| 策略 | 说明 |\n|---|---|\n| **TurtleTrade** | 海龟突破：20日新高 + 成交额过亿 + 阳线防诱多，按涨幅排序 |\n| **MaVolume** | 均线+放量突破 |\n| **HighTightFlag** | 高而窄的旗形整理突破 |\n| **LimitUpShakeout** | 涨停洗盘回踩确认 |\n| **UptrendLimitDown** | 上升趋势中的跌停反包 |\n| **RpsBreakout** | 欧奈尔 RPS 相对强度突破 |\n\n---\n\n## 快速开始 | Quick Start\n\n### 环境要求\n\n- Python >= 3.10\n\n### 1. 安装依赖\n\n```bash\n# 推荐使用 uv（快速包管理器）\nuv sync\n\n# 或者 pip\npip install .\n```\n\n### 2. 配置环境变量\n\n```bash\ncp .env.example .env\n# 编辑 .env，填写飞书 Webhook URL\n```\n\n### 3. 首次回填历史数据\n\n```bash\npython main.py --backfill\n```\n\n约 12 分钟完成 ~5200 只 A 股历史后复权日 K 数据回填。\n\n### 4. 日常运行\n\n```bash\npython main.py\n```\n\n建议配合 crontab 每个交易日收盘后自动执行：\n\n```cron\n15 19 * * 1-5 cd /root/Sequoia-X && .venv/bin/python main.py >>",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "stargazers_count": 50705,
+      "forks_count": 3555,
+      "open_issues_count": 90,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Chrome DevTools for coding agents",
+        "**Get performance insights**: Uses [Chrome",
+        "**Advanced browser debugging**: Analyze network requests, take screenshots and",
+        "**Reliable automation**. Uses",
+        "Node.js（https://nodejs.org/） LTS（https://github.com/nodejs/Release#release-schedule） version.",
+        "Chrome（https://www.google.com/chrome/） current stable version or newer."
+      ],
+      "readme_excerpt": "# Chrome DevTools for agents\n\n[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It acts as a Model-Context-Protocol\n(MCP) server, giving your AI coding assistant access to the full power of\nChrome DevTools for reliable automation, in-depth debugging, and performance analysis.\nA [CLI][cli] is also provided for use without MCP.\n\n[Tool reference][tool-reference] | [Changelog][changelog] | [Contributing][contributing] | [Troubleshooting][troubleshooting] | [Design Principles][design-principles]\n\n## Key features\n\n- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://github.com/puppeteer/puppeteer) to automate actions in",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "html_url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ],
+      "stargazers_count": 240237,
+      "forks_count": 49170,
+      "open_issues_count": 38658,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent that grows with you"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"Hermes Agent\" width=\"100%\">\n</p>\n\n# Hermes Agent ☤\n<p align=\"center\">\n  <a href=\"https://hermes-agent.nousresearch.com/\">Hermes Agent</a> | <a href=\"https://hermes-agent.nousresearch.com/\">Hermes Desktop</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://hermes-agent.nousresearch.com/docs/\"><img src=\"https://img.shields.io/badge/Docs-hermes--agent.nousresearch.com-FFD700?style=for-the-badge\" alt=\"Documentation\"></a>\n  <a href=\"https://discord.gg/NousResearch\"><img src=\"https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white\" alt=\"Discord\"></a>\n  <a href=\"https://github.com/NousResearch/hermes-agent/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-green?style=for-the-badge\" alt=\"License: MIT\"></a>\n  <a href=\"https://nousresearch.com\"><img src=\"https://img.shields.io/badge/Built%20by-Nous%20Research-blueviolet?style=for-the-badge\" alt=\"Built by Nous Research\"></a>\n  <a href=\"README.zh-CN.md\"><img src=\"https://img.shields.io/badge/Lang-中文-red?style=for-the-badge\" alt=\"中文\"></a>\n  <a href=\"README.ur-pk.md\"><img src=\"https://img.shields.io/badge/Lang-اردو-green?style=for-the-badge",
+      "_meta_source": "api"
+    }
+  ]
+}
